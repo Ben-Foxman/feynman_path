@@ -1,56 +1,57 @@
-#include "Gate.cpp"
+#include <string>
+#include <complex>
 #include <map>
 #include <iostream>
 #include <fstream>
 #include <vector>
 #include <assert.h>
+#include <string_view>
+#include <bitset>
+using namespace std;
 using namespace std::complex_literals;
 
-map<string, Gate> gates;
+map<string, int> gates;
 
 int n, N;
+int gate_num = 0, computation_num = 0;
 map<int, complex<double>> state;
 
-struct FeynmanNode  {
-    int incoming, outgoing;
-    string gateName;
-};
-
 void init_gates(){
-    Gate* h = new Gate("h", 1, (complex<double>[]){1/sqrt(2), 1/sqrt(2), 1/sqrt(2), 1/sqrt(2)});
-    Gate* x = new Gate("x", 1, (complex<double>[]){0, 1, 1, 0});
-    Gate* y = new Gate("y", 1, (complex<double>[]){0, -1i, 1i, 0});
-    Gate* z = new Gate("z", 1, (complex<double>[]){1, 0, 0, -1});
-    Gate* s = new Gate("s", 1, (complex<double>[]){1, 0, 0, 1i});
-    Gate* t = new Gate("t", 1, (complex<double>[]){1, 0, 0, 1/sqrt(2) + 1i/sqrt(2)});
-    Gate* cx = new Gate("cx", 2, (complex<double>[]){1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0});
-    Gate* cz = new Gate("cz", 2, (complex<double>[]){1, 0, 0, 0, 0, -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1});
-    Gate* swap = new Gate("swap", 2, (complex<double>[]){1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1});
-    Gate* ccx = new Gate("ccx", 3, (complex<double>[]){1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1});
-    Gate* cswap = new Gate("cswap", 3, (complex<double>[]){1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1});
-
-    gates["h"] =  *h;
-    gates["x"] =  *x;
-    gates["y"] =  *y;
-    gates["z"] =  *z;
-    gates["s"] =  *s;
-    gates["t"] =  *t;
-    gates["cx"] =  *cx;
-    gates["cz"] =  *cz;
-    gates["swap"] =  *swap;
-    gates["ccx"] = *ccx;
-    gates["cswap"] = *cswap;
-
+    gates["h"] =  1;
+    gates["x"] =  1;
+    gates["y"] =  1;
+    gates["z"] =  1;
+    gates["s"] =  1;
+    gates["t"] =  1;
+    gates["cx"] =  2;
+    gates["cz"] =  2;
+    gates["swap"] =  2;
+    gates["ccx"] = 3;
+    gates["cswap"] = 3;
+    gates["sdg"] = 1;
+    gates["tdg"] = 1;
 }
 
-// get kth LSB of i, where 0 <= i < N
-int get_bit(int i, int k){
-    return (1 << k) & i;
-}
+// TODO
+string format_state(int ket, complex<double> amplitude){
+    double real = amplitude.real() != -0.0 ? amplitude.real() : 0;
+    double imag = amplitude.imag() != -0.0 ? amplitude.imag() : 0;
+    string s = "";
+    if (real != 0 || imag != 0){
+        if (real != 0){
+        s.append(to_string(real));
+        }
+        if (imag > 0 && real != 0){
+            s.append("+");
+        }
+        if (imag != 0){
+            s.append(to_string(imag)).append("i");
+        }
+        s.append("|").append(bitset<256>(ket).to_string().substr(bitset<256>(ket).to_string().size() - n)).append(">");
+        s.append("\n");
+    }
 
-// flip kth LSB of i, where 0 <= i < N
-int flip_bit(int i, int k){
-    return (1 << k) ^ i;
+    return s;
 }
 
 int label(string name){
@@ -65,16 +66,27 @@ int label(string name){
     if (name == "swap") {return 8;}
     if (name == "ccx") {return 9;}
     if (name == "cswap") {return 10;}
+    if (name == "sdg") {return 11;}
+    if (name == "tdg") {return 12;}
     return -1;
 }
 
+// get kth LSB of i, where 0 <= i < N
+int get_bit(int i, int k){
+    return ((1 << k) & i) >> k;
+}
 
+// flip kth LSB of i, where 0 <= i < N
+int flip_bit(int i, int k){
+    return (1 << k) ^ i;
+}
 
 void process_gate(string name, vector<int> wires){
     map<int, complex<double>> newState;
 
     auto newStateUpdate = [&](int key, complex<double> value)
     {
+        computation_num += 1;
         if (newState.contains(key)){
             newState[key] += value;
         }
@@ -84,7 +96,8 @@ void process_gate(string name, vector<int> wires){
     };
 
     if (gates.contains(name)){
-        assert(gates[name].get_n() == wires.size());
+        assert(gates[name] == wires.size());
+        gate_num += 1;
         switch (label(name))
         {
         case 0: // h
@@ -98,12 +111,9 @@ void process_gate(string name, vector<int> wires){
                         newStateUpdate(newKet, (1/sqrt(2)) * amplitude);
                         break;
                     case 1:
-                        cout << "no" << ket << endl;
                         newStateUpdate(ket, -1 * (1/sqrt(2)) * amplitude);
                         newStateUpdate(newKet, (1/sqrt(2)) * amplitude);
                         break;
-
-
                     }
                 }
             break;
@@ -200,23 +210,45 @@ void process_gate(string name, vector<int> wires){
                     }
                 }
             break;
+        case 11: // sdg
+            for (const auto& [ket, amplitude]  : state)
+                {
+                    complex<double> coeff = get_bit(ket, wires[0]) ? -1i : 1;
+                    newStateUpdate(ket, coeff * amplitude);
+
+                }
+            break;
+        case 12: // tdg
+            for (const auto& [ket, amplitude]  : state)
+                {
+                    complex<double> coeff = get_bit(ket, wires[0]) ? (1.0 - 1i)/sqrt(2) : 1;
+                    newStateUpdate(ket, coeff * amplitude);
+
+                }
+            break;
         }
     }
     else {
-        cout << "Error: Unknown Gate " << name <<  "- Currently Implemented gates are:" << endl;
+        cout << "Error: Unknown Gate " << name <<  "- Currently Implemented gates are: ";
+        for (std::map<string, int>::iterator it = gates.begin(); it != gates.end(); ++it){
+            cout << it->first << " ";
+        }
+        cout << endl;
     }
     state.erase(state.begin(), state.end());
     state.insert(newState.begin(), newState.end());
 }
 
-
-int main() {
+int main(int argc, char **argv) {
     // 0. gate details
     init_gates();
 
-    std::ifstream infile("in.txt");
+    std::ifstream infile("circuits/" + string(argv[1]));
     string line;
     bool first = true, second = false;
+
+    auto start = chrono::steady_clock::now();
+
     while (std::getline(infile, line))
     {
         // 1. get size of program
@@ -226,7 +258,7 @@ int main() {
             first = false;
             second = true;
         }
-        // 2. get input state (zero state for now)
+        // 2. get input state (TODO? zero state for now)
         else if (second) {
             state[0] = 1;
             second = false;
@@ -246,12 +278,24 @@ int main() {
             process_gate(name, wires);
         }
     }
+    auto end = chrono::steady_clock::now();
 
-    for (const auto& [ket, amplitude]  : state){
-        if (abs(amplitude) != 0){
-            cout << "Ket:" << ket << endl;
-            cout << "Amplitude:" << (amplitude.real() > -0.0 ? "+" : "") << amplitude.real() << (amplitude.imag() >= -0.0 ? "+" : "") << amplitude.imag() << "i" << endl;
+    auto exectime = chrono::duration_cast<std::chrono::nanoseconds>(end - start).count();
+
+    cout << "--- Feynman Path Simulator ---" << endl << endl;
+
+    if (argc > 2 && string(argv[2]) == "-p") {
+        for (const auto& [ket, amplitude]  : state){
+            cout << format_state(ket, amplitude);
         }
-
+        cout << endl;
     }
+
+    cout << "Gate count: " << gate_num << endl;
+    cout << "Feynman Path Edges: " << computation_num << endl << endl;
+    cout << "Execution Time: " << exectime / 1000000000.0 << " seconds" << endl;
+
+    //write filename, exectime to outfile
+    ofstream out("out.csv", ios_base::app);
+    out << "fp," << argv[1] << "," << exectime / 1000000000.0 << endl;
 }
