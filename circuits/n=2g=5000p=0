@@ -1,0 +1,5002 @@
+2
+#
+cx 1 0
+s 0
+cx 0 1
+s 0
+cx 0 1
+s 1
+cx 1 0
+cx 0 1
+cx 1 0
+s 1
+s 1
+s 0
+s 1
+cx 1 0
+s 1
+cx 1 0
+s 0
+s 1
+s 0
+cx 0 1
+s 1
+s 0
+s 0
+cx 0 1
+cx 0 1
+cx 1 0
+cx 1 0
+s 1
+s 0
+cx 0 1
+cx 1 0
+cx 1 0
+cx 0 1
+s 0
+s 1
+s 0
+s 1
+s 0
+s 0
+s 1
+cx 1 0
+s 0
+cx 1 0
+s 0
+cx 1 0
+s 1
+cx 0 1
+s 1
+cx 1 0
+s 0
+s 0
+cx 1 0
+cx 1 0
+cx 1 0
+cx 0 1
+s 0
+s 0
+s 0
+cx 0 1
+s 0
+cx 0 1
+s 0
+cx 0 1
+cx 1 0
+cx 0 1
+s 1
+cx 1 0
+cx 1 0
+cx 1 0
+s 1
+s 1
+s 1
+cx 0 1
+cx 1 0
+s 1
+s 1
+s 1
+s 1
+cx 0 1
+cx 0 1
+s 0
+cx 0 1
+s 0
+s 1
+s 1
+s 0
+s 0
+cx 0 1
+s 1
+cx 0 1
+cx 1 0
+s 1
+s 0
+s 0
+s 1
+s 1
+s 1
+cx 1 0
+s 0
+s 1
+s 1
+s 1
+cx 1 0
+s 0
+cx 0 1
+cx 1 0
+cx 1 0
+cx 1 0
+cx 0 1
+cx 1 0
+s 0
+cx 1 0
+s 1
+cx 0 1
+cx 0 1
+s 0
+cx 1 0
+cx 0 1
+cx 1 0
+s 1
+cx 0 1
+s 1
+s 0
+s 0
+s 0
+s 0
+s 0
+cx 0 1
+cx 0 1
+cx 1 0
+cx 0 1
+s 0
+s 1
+s 0
+s 1
+cx 0 1
+cx 0 1
+cx 0 1
+s 0
+s 1
+cx 1 0
+s 1
+s 1
+cx 1 0
+cx 1 0
+s 1
+s 0
+cx 0 1
+s 1
+cx 0 1
+cx 1 0
+cx 0 1
+cx 1 0
+cx 1 0
+s 1
+s 1
+s 0
+s 0
+cx 0 1
+s 1
+cx 1 0
+s 1
+s 1
+s 1
+s 1
+cx 1 0
+cx 0 1
+cx 0 1
+cx 1 0
+cx 1 0
+cx 0 1
+cx 0 1
+s 1
+s 0
+s 0
+s 1
+s 0
+s 0
+s 1
+cx 1 0
+cx 1 0
+s 0
+s 0
+s 0
+s 1
+cx 0 1
+cx 0 1
+cx 0 1
+cx 0 1
+s 0
+s 1
+s 1
+s 1
+cx 0 1
+cx 0 1
+cx 0 1
+cx 0 1
+s 1
+cx 0 1
+cx 1 0
+s 0
+s 1
+s 1
+s 0
+s 1
+cx 1 0
+cx 0 1
+s 1
+cx 0 1
+s 0
+cx 0 1
+s 1
+cx 1 0
+s 1
+s 1
+cx 0 1
+s 1
+s 0
+s 0
+s 1
+s 1
+s 1
+cx 0 1
+s 1
+cx 0 1
+s 1
+cx 0 1
+cx 1 0
+s 0
+cx 1 0
+s 1
+s 0
+cx 0 1
+s 1
+cx 0 1
+s 0
+s 0
+cx 1 0
+cx 0 1
+s 1
+cx 0 1
+cx 1 0
+cx 0 1
+cx 1 0
+s 0
+cx 1 0
+s 1
+s 0
+s 0
+s 0
+cx 1 0
+cx 1 0
+cx 0 1
+cx 0 1
+s 1
+cx 0 1
+s 0
+s 1
+s 0
+cx 1 0
+s 0
+cx 1 0
+cx 1 0
+cx 1 0
+cx 1 0
+cx 0 1
+cx 1 0
+cx 0 1
+s 0
+s 0
+s 1
+s 0
+s 0
+cx 0 1
+cx 0 1
+cx 1 0
+s 0
+cx 1 0
+s 1
+cx 0 1
+cx 1 0
+s 1
+cx 0 1
+s 1
+cx 0 1
+s 1
+s 0
+s 1
+cx 0 1
+cx 1 0
+cx 1 0
+cx 1 0
+cx 0 1
+cx 1 0
+s 1
+s 1
+s 1
+cx 1 0
+s 1
+cx 0 1
+s 1
+cx 1 0
+cx 1 0
+cx 1 0
+cx 0 1
+s 1
+s 0
+cx 1 0
+cx 1 0
+cx 1 0
+s 0
+s 0
+cx 0 1
+s 1
+cx 0 1
+s 1
+cx 1 0
+cx 0 1
+cx 0 1
+cx 0 1
+cx 0 1
+cx 1 0
+cx 0 1
+s 1
+s 1
+cx 1 0
+cx 0 1
+cx 0 1
+s 1
+s 1
+cx 0 1
+s 1
+s 0
+cx 1 0
+s 0
+cx 0 1
+s 1
+cx 1 0
+cx 1 0
+cx 1 0
+s 1
+s 0
+cx 1 0
+cx 1 0
+cx 1 0
+s 1
+cx 0 1
+cx 0 1
+s 1
+cx 1 0
+cx 1 0
+s 0
+s 0
+cx 0 1
+cx 0 1
+cx 1 0
+cx 1 0
+s 1
+cx 1 0
+cx 1 0
+cx 1 0
+s 0
+cx 1 0
+cx 0 1
+s 0
+cx 1 0
+cx 1 0
+cx 1 0
+cx 0 1
+s 1
+s 0
+s 0
+cx 1 0
+s 1
+cx 0 1
+cx 0 1
+s 1
+s 1
+s 1
+s 1
+cx 1 0
+s 1
+cx 1 0
+s 1
+cx 1 0
+s 1
+s 0
+s 0
+cx 0 1
+s 0
+cx 1 0
+s 1
+cx 1 0
+cx 1 0
+cx 0 1
+s 1
+cx 1 0
+s 0
+cx 0 1
+s 1
+s 0
+s 1
+cx 0 1
+cx 0 1
+s 0
+cx 0 1
+cx 1 0
+s 1
+cx 1 0
+s 0
+cx 1 0
+cx 1 0
+cx 0 1
+cx 0 1
+cx 1 0
+cx 0 1
+cx 1 0
+cx 1 0
+cx 1 0
+cx 1 0
+s 0
+cx 1 0
+cx 0 1
+s 0
+s 0
+cx 1 0
+cx 0 1
+cx 0 1
+cx 0 1
+s 1
+s 0
+cx 0 1
+s 0
+cx 0 1
+cx 1 0
+s 1
+cx 1 0
+s 0
+s 0
+s 1
+cx 1 0
+cx 1 0
+s 1
+cx 0 1
+s 1
+s 0
+s 1
+cx 0 1
+s 1
+cx 1 0
+cx 0 1
+cx 0 1
+cx 0 1
+cx 1 0
+s 1
+s 1
+cx 1 0
+s 1
+s 0
+s 0
+cx 1 0
+s 0
+cx 1 0
+cx 1 0
+cx 0 1
+cx 0 1
+s 0
+cx 0 1
+s 1
+s 0
+s 0
+cx 1 0
+s 1
+cx 0 1
+cx 1 0
+cx 1 0
+cx 0 1
+s 0
+cx 0 1
+cx 0 1
+s 0
+cx 1 0
+cx 0 1
+s 0
+s 1
+s 0
+s 1
+cx 0 1
+s 0
+s 0
+s 0
+cx 1 0
+cx 1 0
+s 1
+cx 0 1
+cx 0 1
+s 0
+s 0
+cx 0 1
+s 1
+s 0
+s 1
+cx 1 0
+cx 0 1
+s 1
+cx 0 1
+s 0
+cx 1 0
+s 0
+cx 0 1
+cx 1 0
+cx 0 1
+s 0
+cx 0 1
+cx 1 0
+s 0
+s 1
+cx 1 0
+s 0
+cx 1 0
+cx 1 0
+s 0
+cx 1 0
+s 0
+cx 0 1
+s 1
+s 0
+s 0
+s 0
+cx 1 0
+cx 0 1
+s 1
+cx 0 1
+cx 1 0
+s 1
+cx 0 1
+cx 1 0
+cx 1 0
+cx 0 1
+s 0
+s 0
+cx 1 0
+cx 0 1
+s 0
+s 0
+cx 0 1
+s 1
+s 0
+cx 0 1
+s 1
+cx 0 1
+s 1
+cx 1 0
+cx 1 0
+s 1
+s 1
+s 0
+s 0
+s 0
+cx 0 1
+s 0
+s 0
+s 0
+cx 0 1
+s 0
+cx 1 0
+cx 1 0
+s 1
+cx 1 0
+cx 0 1
+cx 0 1
+cx 1 0
+s 1
+s 0
+cx 1 0
+cx 1 0
+cx 1 0
+s 0
+s 0
+cx 1 0
+cx 1 0
+s 1
+s 0
+cx 0 1
+cx 1 0
+cx 1 0
+cx 0 1
+s 1
+s 0
+cx 0 1
+cx 0 1
+s 0
+cx 0 1
+cx 0 1
+cx 0 1
+cx 1 0
+cx 1 0
+s 0
+cx 0 1
+s 1
+s 0
+s 1
+cx 0 1
+s 1
+cx 1 0
+s 0
+s 1
+cx 1 0
+cx 1 0
+s 0
+cx 0 1
+s 1
+s 0
+s 0
+cx 1 0
+cx 1 0
+cx 1 0
+cx 0 1
+cx 1 0
+s 0
+cx 0 1
+cx 1 0
+cx 1 0
+s 1
+cx 1 0
+cx 1 0
+cx 1 0
+cx 1 0
+cx 1 0
+cx 1 0
+s 1
+cx 1 0
+s 0
+cx 1 0
+s 1
+cx 0 1
+s 0
+cx 1 0
+cx 1 0
+s 1
+cx 0 1
+s 1
+cx 1 0
+cx 0 1
+cx 0 1
+s 1
+cx 1 0
+s 0
+s 1
+s 1
+cx 1 0
+cx 0 1
+s 1
+s 1
+s 0
+s 1
+cx 1 0
+cx 0 1
+s 1
+s 1
+cx 1 0
+cx 0 1
+s 1
+cx 1 0
+s 0
+s 1
+s 0
+cx 1 0
+cx 1 0
+s 0
+cx 0 1
+cx 0 1
+s 1
+cx 0 1
+s 0
+cx 0 1
+s 0
+cx 0 1
+s 0
+s 1
+cx 1 0
+s 1
+cx 1 0
+cx 0 1
+cx 1 0
+s 0
+cx 1 0
+s 1
+s 1
+s 0
+cx 0 1
+cx 1 0
+cx 0 1
+s 0
+s 1
+s 0
+cx 1 0
+s 0
+s 1
+cx 0 1
+s 1
+s 1
+s 1
+s 1
+s 0
+cx 1 0
+s 0
+s 0
+cx 0 1
+s 1
+cx 1 0
+cx 1 0
+s 1
+s 1
+s 1
+s 0
+cx 1 0
+cx 1 0
+cx 1 0
+cx 1 0
+cx 0 1
+cx 1 0
+cx 1 0
+cx 1 0
+cx 0 1
+s 0
+s 0
+s 0
+cx 0 1
+cx 1 0
+cx 0 1
+s 1
+cx 1 0
+s 1
+s 0
+cx 0 1
+s 0
+s 0
+s 1
+cx 1 0
+cx 1 0
+s 0
+s 0
+cx 1 0
+s 1
+s 0
+s 1
+cx 1 0
+cx 1 0
+cx 1 0
+s 1
+cx 0 1
+cx 1 0
+s 1
+cx 0 1
+cx 0 1
+cx 1 0
+s 1
+s 1
+s 0
+s 1
+s 0
+s 1
+s 1
+cx 0 1
+s 0
+cx 0 1
+cx 1 0
+cx 0 1
+cx 0 1
+s 0
+s 0
+cx 1 0
+cx 1 0
+s 0
+s 0
+s 1
+s 0
+s 0
+s 0
+s 1
+cx 0 1
+s 1
+cx 1 0
+s 0
+cx 0 1
+s 0
+s 0
+s 1
+cx 1 0
+cx 0 1
+s 1
+s 0
+s 0
+s 1
+s 0
+cx 1 0
+s 0
+cx 1 0
+cx 1 0
+cx 1 0
+cx 1 0
+s 0
+cx 1 0
+s 1
+cx 1 0
+s 1
+cx 0 1
+s 0
+s 1
+s 1
+s 0
+s 1
+cx 1 0
+cx 1 0
+cx 0 1
+s 1
+cx 0 1
+cx 0 1
+cx 1 0
+cx 0 1
+cx 1 0
+cx 1 0
+s 1
+s 0
+cx 1 0
+cx 1 0
+s 1
+cx 1 0
+cx 1 0
+s 1
+s 1
+cx 1 0
+cx 0 1
+s 0
+cx 0 1
+s 1
+cx 1 0
+cx 1 0
+cx 0 1
+cx 0 1
+s 1
+s 0
+cx 1 0
+s 1
+cx 1 0
+cx 1 0
+cx 0 1
+cx 1 0
+s 1
+s 1
+cx 0 1
+s 1
+s 1
+cx 0 1
+cx 1 0
+s 0
+cx 0 1
+s 0
+cx 1 0
+cx 0 1
+s 0
+s 0
+cx 0 1
+s 0
+cx 1 0
+s 0
+s 0
+s 0
+s 0
+s 0
+cx 1 0
+s 1
+cx 1 0
+s 1
+cx 1 0
+cx 1 0
+s 0
+s 1
+cx 1 0
+s 1
+s 0
+s 0
+cx 1 0
+s 0
+cx 0 1
+cx 0 1
+s 0
+cx 1 0
+s 0
+s 0
+cx 1 0
+s 1
+cx 0 1
+s 0
+s 0
+s 0
+s 1
+s 0
+s 1
+s 0
+cx 0 1
+s 1
+cx 1 0
+cx 0 1
+cx 1 0
+s 1
+cx 1 0
+s 1
+s 1
+s 1
+s 0
+cx 1 0
+s 1
+cx 1 0
+s 0
+cx 1 0
+cx 1 0
+cx 0 1
+cx 1 0
+s 1
+cx 0 1
+s 1
+cx 0 1
+s 1
+s 0
+cx 0 1
+cx 1 0
+cx 0 1
+cx 1 0
+s 1
+cx 1 0
+s 0
+s 1
+cx 1 0
+cx 1 0
+s 1
+s 0
+s 1
+cx 0 1
+cx 0 1
+s 0
+s 1
+s 0
+cx 1 0
+s 0
+cx 1 0
+s 0
+cx 0 1
+s 1
+cx 0 1
+s 0
+s 0
+s 1
+cx 1 0
+cx 0 1
+s 0
+cx 1 0
+cx 1 0
+s 1
+s 1
+cx 1 0
+cx 0 1
+cx 1 0
+cx 1 0
+cx 0 1
+s 0
+cx 1 0
+s 1
+cx 1 0
+s 1
+cx 1 0
+cx 1 0
+cx 0 1
+s 0
+s 0
+cx 1 0
+cx 0 1
+cx 0 1
+cx 1 0
+cx 1 0
+s 1
+s 0
+s 1
+cx 0 1
+cx 1 0
+cx 1 0
+s 1
+cx 1 0
+s 1
+cx 0 1
+cx 1 0
+cx 1 0
+s 1
+cx 0 1
+cx 0 1
+s 1
+cx 1 0
+cx 0 1
+cx 0 1
+s 1
+cx 1 0
+s 1
+cx 1 0
+cx 1 0
+cx 0 1
+cx 1 0
+s 1
+s 0
+cx 0 1
+s 1
+cx 0 1
+cx 1 0
+cx 0 1
+s 1
+cx 0 1
+s 1
+cx 1 0
+s 0
+cx 1 0
+s 1
+s 1
+s 0
+s 1
+s 1
+cx 1 0
+s 1
+s 1
+cx 0 1
+s 1
+s 0
+cx 0 1
+cx 0 1
+cx 1 0
+cx 0 1
+cx 1 0
+cx 0 1
+cx 1 0
+s 0
+s 1
+s 0
+s 1
+s 1
+s 1
+cx 1 0
+s 0
+cx 1 0
+s 0
+s 1
+s 0
+cx 0 1
+cx 0 1
+s 1
+cx 0 1
+s 1
+cx 1 0
+s 1
+cx 0 1
+cx 0 1
+cx 0 1
+s 1
+cx 1 0
+cx 0 1
+cx 1 0
+s 1
+cx 0 1
+cx 1 0
+cx 1 0
+cx 0 1
+s 0
+cx 1 0
+cx 1 0
+s 1
+s 1
+s 0
+s 1
+s 0
+cx 1 0
+s 0
+cx 0 1
+s 0
+s 0
+cx 1 0
+s 0
+s 1
+s 0
+cx 0 1
+cx 0 1
+cx 0 1
+cx 0 1
+s 0
+s 1
+s 0
+s 0
+cx 0 1
+s 0
+cx 0 1
+cx 0 1
+cx 0 1
+s 0
+cx 0 1
+cx 1 0
+cx 1 0
+s 1
+s 0
+cx 0 1
+s 1
+cx 0 1
+cx 0 1
+s 0
+s 1
+s 1
+s 0
+s 1
+s 0
+cx 1 0
+s 0
+s 0
+cx 1 0
+cx 0 1
+cx 1 0
+s 1
+cx 0 1
+s 0
+cx 1 0
+cx 0 1
+s 1
+cx 1 0
+s 0
+s 1
+cx 0 1
+cx 0 1
+s 1
+cx 0 1
+s 1
+s 0
+cx 0 1
+s 0
+s 0
+cx 1 0
+s 1
+s 1
+s 0
+s 0
+s 0
+cx 0 1
+s 0
+s 0
+cx 1 0
+s 0
+s 1
+s 0
+s 0
+s 1
+s 1
+s 1
+cx 0 1
+s 1
+cx 0 1
+cx 0 1
+s 0
+s 0
+s 0
+cx 1 0
+cx 1 0
+s 1
+cx 0 1
+cx 0 1
+cx 0 1
+s 0
+s 0
+cx 0 1
+cx 1 0
+s 0
+cx 0 1
+cx 0 1
+s 1
+cx 1 0
+cx 0 1
+cx 0 1
+s 0
+s 1
+cx 1 0
+s 0
+s 1
+cx 1 0
+s 1
+s 1
+s 0
+cx 0 1
+cx 1 0
+cx 0 1
+cx 0 1
+s 0
+cx 1 0
+s 1
+cx 1 0
+s 0
+cx 0 1
+s 0
+cx 1 0
+s 0
+s 0
+s 0
+s 1
+s 0
+cx 1 0
+cx 1 0
+cx 1 0
+cx 0 1
+s 1
+cx 1 0
+cx 0 1
+s 1
+cx 0 1
+s 0
+s 0
+cx 0 1
+s 1
+cx 1 0
+cx 1 0
+s 0
+cx 1 0
+s 0
+s 0
+s 0
+cx 0 1
+s 1
+s 1
+cx 1 0
+cx 1 0
+cx 1 0
+s 1
+s 1
+s 0
+s 0
+cx 0 1
+s 1
+cx 0 1
+cx 1 0
+s 0
+cx 1 0
+s 0
+s 0
+cx 0 1
+cx 0 1
+cx 1 0
+cx 0 1
+s 1
+cx 0 1
+cx 1 0
+s 0
+cx 1 0
+s 1
+s 1
+s 0
+cx 1 0
+s 0
+s 1
+s 0
+cx 1 0
+s 0
+cx 1 0
+s 1
+cx 0 1
+s 0
+s 1
+s 1
+s 1
+s 1
+s 0
+cx 1 0
+cx 0 1
+cx 1 0
+s 0
+cx 0 1
+s 0
+cx 0 1
+s 0
+s 1
+cx 1 0
+cx 1 0
+s 1
+s 0
+s 1
+cx 1 0
+cx 1 0
+s 0
+cx 0 1
+cx 0 1
+s 0
+s 0
+cx 0 1
+s 1
+s 1
+cx 1 0
+s 0
+s 1
+cx 1 0
+s 1
+cx 0 1
+cx 1 0
+cx 0 1
+cx 0 1
+s 0
+cx 1 0
+s 1
+s 1
+cx 0 1
+cx 0 1
+cx 0 1
+cx 0 1
+s 0
+cx 0 1
+cx 0 1
+cx 0 1
+cx 1 0
+s 0
+s 1
+cx 0 1
+cx 0 1
+cx 1 0
+cx 0 1
+cx 1 0
+s 1
+s 0
+s 1
+cx 1 0
+s 1
+s 0
+cx 0 1
+s 0
+cx 0 1
+cx 0 1
+cx 1 0
+cx 1 0
+cx 0 1
+cx 0 1
+cx 1 0
+cx 0 1
+cx 1 0
+s 0
+s 0
+cx 0 1
+s 1
+cx 1 0
+s 0
+s 0
+s 1
+s 0
+s 0
+cx 0 1
+s 1
+s 0
+s 0
+cx 1 0
+cx 1 0
+s 0
+cx 1 0
+s 0
+cx 0 1
+s 1
+cx 1 0
+cx 1 0
+cx 1 0
+cx 0 1
+cx 1 0
+cx 0 1
+cx 0 1
+cx 0 1
+s 0
+s 0
+s 1
+cx 0 1
+cx 1 0
+cx 0 1
+s 1
+s 1
+s 0
+cx 1 0
+cx 1 0
+s 0
+s 1
+s 1
+s 1
+s 1
+s 0
+cx 0 1
+cx 1 0
+s 0
+s 1
+cx 0 1
+s 0
+s 1
+s 0
+s 0
+s 1
+s 0
+s 0
+cx 1 0
+cx 1 0
+cx 1 0
+cx 0 1
+cx 1 0
+cx 0 1
+s 1
+s 0
+cx 1 0
+s 0
+s 0
+s 1
+cx 1 0
+s 0
+s 0
+s 0
+cx 0 1
+cx 0 1
+s 0
+cx 0 1
+s 0
+cx 0 1
+cx 0 1
+cx 0 1
+cx 1 0
+s 0
+cx 1 0
+cx 1 0
+cx 1 0
+cx 0 1
+s 1
+s 0
+s 0
+cx 0 1
+s 1
+cx 0 1
+s 0
+cx 0 1
+s 1
+cx 1 0
+s 1
+cx 1 0
+s 1
+s 1
+cx 1 0
+cx 0 1
+s 0
+cx 0 1
+cx 1 0
+cx 0 1
+cx 0 1
+cx 1 0
+s 0
+cx 1 0
+s 0
+s 1
+s 1
+s 1
+s 1
+cx 1 0
+cx 1 0
+cx 0 1
+cx 0 1
+s 0
+s 1
+s 1
+cx 0 1
+cx 1 0
+s 1
+cx 1 0
+cx 1 0
+cx 0 1
+cx 1 0
+s 0
+s 0
+s 1
+cx 0 1
+s 0
+s 0
+s 1
+s 1
+cx 1 0
+s 0
+s 1
+cx 0 1
+cx 0 1
+cx 0 1
+s 0
+cx 0 1
+s 1
+s 0
+s 0
+cx 0 1
+cx 1 0
+cx 1 0
+s 0
+cx 0 1
+cx 0 1
+s 1
+cx 0 1
+cx 0 1
+cx 1 0
+s 0
+cx 1 0
+cx 1 0
+s 0
+cx 1 0
+s 1
+s 0
+s 1
+cx 0 1
+s 1
+cx 0 1
+s 1
+s 1
+s 0
+s 1
+s 0
+s 0
+cx 0 1
+s 0
+s 1
+s 0
+cx 0 1
+cx 0 1
+s 0
+s 0
+s 0
+s 1
+cx 0 1
+s 1
+s 1
+cx 0 1
+cx 0 1
+s 1
+cx 1 0
+cx 0 1
+cx 1 0
+s 1
+cx 1 0
+cx 0 1
+cx 1 0
+s 0
+s 0
+cx 0 1
+cx 0 1
+cx 1 0
+s 0
+cx 0 1
+s 0
+s 1
+s 1
+s 1
+cx 1 0
+s 0
+s 0
+s 0
+s 1
+cx 0 1
+s 1
+s 0
+cx 1 0
+cx 0 1
+s 0
+s 0
+cx 0 1
+cx 0 1
+s 1
+cx 0 1
+s 1
+s 1
+cx 1 0
+s 0
+s 1
+s 0
+cx 0 1
+cx 1 0
+cx 1 0
+s 1
+s 0
+cx 1 0
+s 1
+cx 1 0
+s 0
+cx 0 1
+s 1
+s 0
+s 1
+cx 0 1
+s 0
+s 0
+cx 1 0
+s 0
+s 1
+cx 1 0
+s 1
+cx 0 1
+cx 0 1
+s 1
+cx 1 0
+cx 1 0
+cx 0 1
+cx 1 0
+s 0
+cx 0 1
+s 0
+s 0
+s 0
+s 1
+cx 0 1
+s 1
+s 0
+s 1
+cx 1 0
+cx 0 1
+s 1
+cx 1 0
+s 1
+s 0
+cx 1 0
+s 1
+s 1
+s 0
+cx 1 0
+cx 0 1
+s 1
+s 1
+s 0
+cx 1 0
+s 0
+cx 0 1
+s 0
+cx 0 1
+s 0
+s 0
+cx 0 1
+cx 1 0
+s 0
+cx 1 0
+s 1
+s 0
+cx 0 1
+cx 1 0
+cx 0 1
+cx 0 1
+s 0
+s 0
+cx 1 0
+cx 0 1
+s 1
+s 1
+s 1
+s 0
+cx 0 1
+s 0
+cx 0 1
+s 0
+s 1
+cx 1 0
+s 1
+s 0
+cx 0 1
+s 1
+cx 0 1
+s 1
+s 0
+cx 0 1
+s 0
+s 1
+s 1
+cx 1 0
+s 0
+s 0
+cx 1 0
+s 0
+cx 0 1
+s 1
+cx 1 0
+cx 0 1
+s 0
+cx 1 0
+cx 1 0
+s 1
+cx 1 0
+s 1
+cx 1 0
+cx 1 0
+s 0
+s 1
+s 0
+cx 0 1
+cx 0 1
+cx 1 0
+s 0
+s 0
+cx 1 0
+s 1
+cx 0 1
+s 1
+s 0
+cx 0 1
+s 0
+cx 1 0
+s 1
+s 1
+s 1
+s 1
+cx 0 1
+s 0
+cx 1 0
+cx 1 0
+cx 0 1
+s 1
+s 0
+cx 0 1
+cx 0 1
+cx 0 1
+cx 1 0
+cx 1 0
+s 1
+s 0
+s 0
+cx 0 1
+s 1
+s 0
+cx 1 0
+cx 0 1
+cx 0 1
+s 1
+s 0
+cx 1 0
+cx 0 1
+s 0
+s 0
+cx 0 1
+cx 1 0
+s 0
+s 1
+cx 0 1
+cx 0 1
+s 1
+s 1
+s 0
+s 1
+s 1
+s 1
+cx 1 0
+cx 1 0
+cx 1 0
+cx 0 1
+s 1
+cx 1 0
+cx 0 1
+cx 1 0
+s 0
+cx 0 1
+cx 0 1
+s 1
+s 1
+cx 1 0
+s 0
+s 1
+cx 1 0
+s 0
+s 0
+cx 0 1
+cx 1 0
+cx 0 1
+s 1
+s 0
+s 1
+cx 0 1
+cx 0 1
+s 1
+cx 1 0
+s 0
+cx 1 0
+cx 1 0
+cx 1 0
+s 1
+cx 1 0
+cx 1 0
+s 0
+s 0
+cx 0 1
+cx 0 1
+cx 0 1
+cx 1 0
+cx 0 1
+s 1
+cx 0 1
+cx 1 0
+cx 0 1
+cx 0 1
+s 0
+cx 0 1
+cx 0 1
+s 1
+s 0
+cx 0 1
+s 0
+cx 0 1
+s 0
+s 1
+cx 0 1
+s 0
+cx 1 0
+cx 1 0
+s 0
+s 1
+s 0
+cx 1 0
+cx 0 1
+cx 1 0
+cx 0 1
+s 0
+cx 1 0
+s 1
+cx 0 1
+cx 0 1
+cx 1 0
+s 0
+s 1
+s 1
+cx 0 1
+s 0
+s 1
+cx 0 1
+cx 1 0
+cx 0 1
+s 0
+cx 1 0
+s 1
+s 0
+cx 0 1
+cx 0 1
+s 0
+cx 1 0
+s 1
+cx 0 1
+s 1
+s 0
+cx 1 0
+s 0
+s 0
+s 1
+cx 1 0
+s 0
+cx 1 0
+s 0
+cx 1 0
+cx 1 0
+s 0
+cx 0 1
+cx 0 1
+cx 1 0
+s 0
+s 0
+cx 1 0
+cx 1 0
+s 0
+cx 1 0
+cx 0 1
+cx 0 1
+s 1
+cx 0 1
+cx 0 1
+s 1
+cx 1 0
+cx 0 1
+s 1
+s 1
+cx 1 0
+s 1
+s 1
+s 0
+cx 1 0
+cx 0 1
+cx 1 0
+s 0
+s 1
+cx 1 0
+s 1
+s 0
+s 0
+cx 0 1
+s 0
+cx 1 0
+cx 1 0
+cx 1 0
+cx 0 1
+cx 1 0
+cx 1 0
+s 0
+s 1
+cx 1 0
+cx 1 0
+s 1
+s 0
+s 1
+s 0
+s 1
+cx 1 0
+cx 0 1
+cx 0 1
+s 0
+cx 1 0
+s 0
+cx 1 0
+s 1
+cx 0 1
+cx 0 1
+cx 0 1
+s 1
+cx 1 0
+cx 0 1
+cx 0 1
+s 1
+s 1
+cx 0 1
+cx 0 1
+cx 0 1
+cx 0 1
+cx 1 0
+s 0
+cx 1 0
+cx 0 1
+s 1
+cx 0 1
+cx 0 1
+s 0
+cx 1 0
+s 1
+s 1
+s 0
+s 1
+cx 0 1
+cx 0 1
+s 1
+s 1
+s 0
+s 0
+cx 1 0
+s 1
+s 0
+cx 0 1
+cx 1 0
+cx 0 1
+cx 0 1
+s 0
+s 0
+cx 0 1
+s 0
+cx 1 0
+cx 0 1
+s 1
+s 0
+s 1
+s 1
+cx 1 0
+cx 1 0
+cx 0 1
+s 0
+s 0
+s 0
+s 1
+cx 1 0
+s 1
+s 1
+cx 0 1
+s 1
+s 0
+s 0
+s 0
+s 0
+s 1
+cx 0 1
+cx 0 1
+s 1
+s 0
+s 0
+cx 0 1
+cx 0 1
+s 1
+s 1
+cx 1 0
+s 1
+s 1
+s 0
+s 1
+cx 0 1
+s 1
+cx 0 1
+cx 1 0
+s 1
+cx 0 1
+s 1
+cx 1 0
+cx 1 0
+cx 1 0
+s 0
+cx 0 1
+s 1
+cx 0 1
+cx 0 1
+s 1
+s 0
+cx 1 0
+s 0
+cx 0 1
+s 0
+s 1
+cx 1 0
+cx 0 1
+cx 0 1
+s 0
+s 0
+s 0
+s 0
+cx 0 1
+cx 0 1
+cx 1 0
+cx 0 1
+cx 0 1
+cx 1 0
+s 0
+cx 1 0
+s 0
+cx 1 0
+s 1
+s 0
+cx 1 0
+cx 0 1
+cx 1 0
+cx 1 0
+s 0
+s 1
+s 1
+s 1
+s 1
+s 1
+cx 1 0
+s 0
+cx 1 0
+s 1
+cx 0 1
+cx 1 0
+s 0
+cx 1 0
+s 1
+s 0
+s 0
+cx 1 0
+cx 1 0
+s 0
+s 1
+s 0
+s 0
+cx 1 0
+cx 0 1
+s 1
+cx 0 1
+s 0
+cx 0 1
+cx 0 1
+cx 1 0
+s 1
+s 1
+s 1
+cx 0 1
+cx 0 1
+cx 0 1
+cx 1 0
+s 0
+cx 1 0
+s 1
+cx 0 1
+cx 0 1
+cx 0 1
+cx 0 1
+s 1
+cx 0 1
+s 0
+s 1
+cx 0 1
+s 0
+cx 1 0
+cx 1 0
+cx 0 1
+cx 0 1
+s 0
+s 1
+s 0
+cx 1 0
+cx 1 0
+s 1
+s 0
+s 1
+cx 1 0
+cx 1 0
+s 0
+cx 0 1
+s 0
+s 1
+cx 0 1
+cx 1 0
+s 0
+s 1
+cx 0 1
+cx 1 0
+s 1
+s 1
+s 0
+s 0
+cx 1 0
+s 0
+s 1
+cx 1 0
+s 0
+cx 1 0
+s 0
+s 0
+s 0
+s 0
+s 0
+cx 0 1
+cx 1 0
+cx 0 1
+cx 1 0
+s 0
+s 1
+s 1
+cx 1 0
+s 1
+cx 1 0
+s 0
+s 1
+s 1
+s 0
+cx 1 0
+s 1
+s 1
+s 1
+cx 1 0
+s 0
+s 1
+s 0
+cx 0 1
+s 1
+cx 1 0
+s 1
+cx 1 0
+cx 0 1
+cx 1 0
+cx 0 1
+cx 1 0
+s 0
+s 1
+s 0
+s 1
+s 0
+cx 0 1
+cx 1 0
+cx 1 0
+cx 0 1
+s 1
+s 0
+cx 1 0
+cx 0 1
+s 0
+cx 0 1
+s 1
+s 0
+s 1
+cx 1 0
+s 0
+s 1
+s 1
+s 0
+s 0
+s 0
+cx 1 0
+cx 0 1
+s 0
+cx 1 0
+cx 1 0
+s 1
+s 0
+cx 0 1
+s 1
+s 1
+cx 0 1
+cx 0 1
+s 0
+s 1
+s 0
+cx 1 0
+cx 1 0
+cx 1 0
+s 0
+cx 1 0
+s 1
+s 1
+s 0
+cx 0 1
+s 0
+s 1
+cx 0 1
+cx 0 1
+s 0
+s 1
+s 0
+cx 1 0
+s 0
+cx 0 1
+s 1
+s 0
+s 0
+cx 0 1
+cx 1 0
+s 0
+s 1
+s 0
+cx 1 0
+cx 0 1
+s 1
+s 0
+s 1
+s 1
+cx 0 1
+s 1
+s 1
+s 0
+cx 1 0
+s 1
+cx 0 1
+cx 1 0
+s 0
+cx 0 1
+s 1
+cx 0 1
+cx 0 1
+cx 1 0
+s 1
+s 1
+cx 1 0
+s 0
+cx 0 1
+cx 1 0
+s 1
+s 1
+s 0
+s 0
+s 0
+cx 1 0
+cx 1 0
+cx 1 0
+cx 1 0
+s 1
+cx 0 1
+cx 0 1
+s 1
+s 1
+s 0
+cx 1 0
+s 0
+s 1
+cx 1 0
+cx 0 1
+cx 1 0
+cx 1 0
+cx 0 1
+s 1
+s 0
+s 1
+s 0
+cx 0 1
+cx 1 0
+s 1
+cx 1 0
+s 1
+s 0
+s 1
+s 1
+s 0
+s 1
+cx 1 0
+cx 0 1
+cx 1 0
+s 0
+s 0
+s 1
+cx 1 0
+s 0
+s 1
+s 0
+s 0
+cx 0 1
+s 1
+cx 0 1
+s 1
+cx 1 0
+s 1
+cx 0 1
+cx 0 1
+cx 0 1
+s 1
+cx 1 0
+cx 1 0
+cx 0 1
+s 1
+s 1
+cx 1 0
+s 1
+cx 0 1
+cx 1 0
+cx 0 1
+cx 1 0
+cx 0 1
+s 0
+s 1
+s 0
+s 0
+s 0
+cx 0 1
+s 1
+s 1
+s 1
+s 1
+cx 1 0
+cx 1 0
+cx 1 0
+cx 1 0
+cx 1 0
+cx 1 0
+cx 0 1
+cx 0 1
+s 0
+cx 1 0
+s 0
+cx 1 0
+cx 0 1
+cx 0 1
+s 1
+s 0
+s 0
+s 0
+cx 0 1
+s 0
+cx 0 1
+cx 0 1
+s 0
+s 1
+cx 0 1
+cx 1 0
+s 1
+s 1
+cx 1 0
+s 1
+s 1
+cx 1 0
+s 1
+s 0
+cx 0 1
+cx 0 1
+s 0
+s 1
+cx 1 0
+s 0
+s 0
+s 0
+cx 0 1
+cx 0 1
+cx 0 1
+cx 1 0
+cx 1 0
+cx 0 1
+s 0
+s 1
+s 0
+s 0
+cx 0 1
+s 1
+s 0
+s 1
+s 1
+s 1
+cx 0 1
+cx 1 0
+s 0
+s 1
+s 0
+cx 0 1
+s 0
+cx 0 1
+s 1
+cx 0 1
+cx 0 1
+cx 0 1
+s 0
+s 1
+s 0
+cx 1 0
+s 0
+s 0
+cx 0 1
+s 1
+s 1
+s 1
+s 1
+cx 0 1
+cx 0 1
+s 1
+cx 1 0
+s 0
+s 1
+cx 0 1
+cx 1 0
+cx 1 0
+cx 0 1
+cx 0 1
+s 1
+s 0
+cx 1 0
+cx 0 1
+s 0
+cx 1 0
+s 1
+s 0
+cx 0 1
+s 0
+cx 0 1
+s 1
+cx 0 1
+cx 0 1
+cx 1 0
+s 1
+cx 1 0
+cx 0 1
+s 0
+cx 0 1
+cx 1 0
+cx 0 1
+cx 0 1
+s 1
+s 1
+cx 1 0
+cx 1 0
+cx 1 0
+cx 1 0
+cx 1 0
+cx 1 0
+cx 1 0
+s 1
+cx 0 1
+s 1
+cx 1 0
+s 1
+cx 0 1
+s 0
+s 1
+s 1
+cx 1 0
+s 1
+cx 0 1
+s 1
+s 0
+cx 0 1
+s 0
+s 1
+s 1
+s 1
+cx 0 1
+s 1
+s 0
+s 0
+cx 1 0
+cx 0 1
+cx 1 0
+cx 1 0
+cx 1 0
+s 0
+s 1
+cx 1 0
+s 0
+cx 1 0
+s 0
+cx 0 1
+s 0
+cx 1 0
+s 1
+s 0
+cx 1 0
+s 0
+s 0
+cx 1 0
+s 1
+s 0
+s 0
+s 0
+s 0
+cx 1 0
+s 0
+cx 0 1
+cx 0 1
+cx 1 0
+s 0
+s 0
+s 0
+cx 0 1
+s 1
+cx 1 0
+s 1
+s 1
+s 1
+s 0
+cx 1 0
+s 1
+cx 0 1
+cx 0 1
+s 0
+cx 1 0
+s 1
+s 1
+s 1
+cx 0 1
+s 1
+s 1
+cx 1 0
+s 1
+s 1
+cx 0 1
+cx 0 1
+cx 0 1
+cx 1 0
+s 1
+cx 1 0
+s 0
+s 1
+cx 1 0
+s 0
+cx 0 1
+cx 1 0
+s 0
+s 0
+s 0
+s 1
+cx 0 1
+cx 1 0
+s 0
+s 1
+s 0
+s 0
+s 0
+cx 1 0
+s 0
+s 0
+cx 1 0
+s 1
+s 1
+s 0
+cx 0 1
+cx 0 1
+cx 0 1
+cx 0 1
+cx 1 0
+s 0
+cx 1 0
+cx 0 1
+cx 0 1
+cx 0 1
+s 0
+s 1
+cx 1 0
+s 0
+s 0
+cx 0 1
+cx 0 1
+cx 0 1
+cx 1 0
+s 0
+cx 0 1
+s 1
+s 0
+cx 0 1
+s 1
+cx 0 1
+s 1
+cx 0 1
+s 0
+s 0
+s 0
+s 0
+s 0
+s 1
+cx 1 0
+cx 1 0
+cx 0 1
+cx 0 1
+cx 1 0
+cx 1 0
+cx 0 1
+cx 1 0
+cx 0 1
+cx 0 1
+cx 1 0
+cx 0 1
+cx 0 1
+s 0
+cx 1 0
+cx 0 1
+s 0
+s 1
+cx 1 0
+s 1
+cx 0 1
+cx 1 0
+cx 0 1
+cx 1 0
+s 1
+cx 1 0
+s 0
+s 0
+cx 0 1
+cx 0 1
+s 0
+cx 0 1
+s 1
+cx 0 1
+s 1
+s 0
+s 0
+cx 1 0
+cx 0 1
+cx 1 0
+cx 1 0
+s 0
+s 0
+s 1
+s 0
+cx 0 1
+cx 1 0
+s 0
+cx 1 0
+s 0
+cx 0 1
+s 0
+cx 1 0
+cx 1 0
+cx 0 1
+cx 1 0
+s 0
+s 1
+cx 0 1
+s 0
+s 0
+s 1
+cx 1 0
+s 0
+cx 0 1
+s 0
+s 1
+cx 0 1
+cx 1 0
+cx 1 0
+s 0
+cx 0 1
+s 1
+s 1
+cx 0 1
+cx 0 1
+s 1
+s 0
+s 0
+s 1
+s 1
+s 0
+cx 0 1
+s 0
+cx 0 1
+cx 0 1
+cx 0 1
+cx 1 0
+s 1
+s 1
+cx 0 1
+cx 1 0
+s 0
+cx 0 1
+cx 0 1
+cx 1 0
+s 0
+cx 1 0
+s 0
+s 1
+cx 1 0
+cx 1 0
+s 1
+cx 0 1
+s 0
+cx 0 1
+cx 1 0
+cx 1 0
+cx 1 0
+s 0
+cx 1 0
+s 0
+s 1
+cx 1 0
+cx 1 0
+s 1
+cx 0 1
+cx 0 1
+s 0
+s 1
+cx 1 0
+s 1
+cx 0 1
+cx 1 0
+cx 1 0
+cx 0 1
+s 1
+s 0
+cx 0 1
+cx 0 1
+cx 0 1
+cx 1 0
+s 1
+cx 1 0
+cx 0 1
+cx 1 0
+cx 0 1
+s 0
+cx 1 0
+s 1
+cx 1 0
+s 0
+cx 1 0
+s 1
+cx 0 1
+s 0
+s 0
+cx 0 1
+cx 1 0
+cx 1 0
+cx 1 0
+cx 0 1
+s 1
+s 1
+cx 0 1
+cx 1 0
+cx 0 1
+s 1
+cx 1 0
+s 1
+s 1
+cx 1 0
+cx 0 1
+cx 0 1
+cx 1 0
+s 1
+s 0
+cx 1 0
+cx 0 1
+cx 1 0
+cx 0 1
+s 0
+s 0
+cx 1 0
+s 0
+cx 0 1
+s 0
+s 0
+s 1
+s 1
+cx 0 1
+s 0
+s 0
+cx 1 0
+s 1
+s 0
+s 0
+cx 0 1
+s 0
+cx 1 0
+s 1
+cx 0 1
+cx 1 0
+cx 0 1
+s 1
+s 1
+cx 1 0
+cx 0 1
+cx 0 1
+cx 0 1
+cx 1 0
+cx 0 1
+cx 1 0
+s 1
+cx 1 0
+cx 1 0
+s 1
+s 0
+s 0
+s 0
+cx 0 1
+cx 1 0
+s 1
+cx 0 1
+cx 1 0
+cx 0 1
+cx 0 1
+s 0
+s 1
+cx 1 0
+cx 1 0
+s 1
+cx 0 1
+cx 1 0
+cx 1 0
+s 0
+cx 1 0
+cx 1 0
+s 0
+cx 1 0
+s 1
+cx 1 0
+s 1
+s 1
+s 1
+cx 1 0
+s 1
+s 1
+s 0
+cx 0 1
+cx 0 1
+s 1
+s 1
+cx 0 1
+s 0
+cx 0 1
+cx 1 0
+s 0
+cx 1 0
+cx 0 1
+s 1
+s 1
+cx 1 0
+s 0
+s 0
+s 0
+cx 0 1
+cx 0 1
+s 1
+s 1
+s 1
+s 0
+cx 0 1
+s 1
+cx 1 0
+s 0
+cx 1 0
+s 1
+s 1
+s 0
+s 1
+s 1
+s 1
+cx 0 1
+cx 1 0
+cx 0 1
+cx 1 0
+cx 1 0
+s 0
+s 1
+s 1
+cx 0 1
+s 1
+s 1
+cx 0 1
+cx 1 0
+s 1
+cx 0 1
+cx 1 0
+s 0
+cx 0 1
+cx 0 1
+s 1
+s 1
+s 0
+cx 0 1
+s 0
+cx 0 1
+s 1
+cx 1 0
+cx 0 1
+cx 1 0
+cx 0 1
+s 1
+cx 0 1
+cx 0 1
+cx 1 0
+cx 0 1
+cx 1 0
+s 1
+cx 0 1
+cx 1 0
+s 0
+cx 0 1
+cx 1 0
+s 0
+cx 1 0
+cx 1 0
+cx 1 0
+s 1
+s 0
+cx 1 0
+s 1
+s 0
+s 0
+cx 1 0
+s 0
+cx 0 1
+s 0
+cx 0 1
+s 1
+s 0
+cx 0 1
+s 0
+s 1
+cx 0 1
+cx 0 1
+cx 0 1
+s 0
+s 0
+s 0
+cx 0 1
+s 1
+s 0
+cx 1 0
+s 0
+cx 0 1
+s 1
+cx 1 0
+s 1
+s 0
+cx 1 0
+cx 1 0
+cx 0 1
+cx 1 0
+s 1
+s 1
+cx 0 1
+cx 1 0
+s 1
+cx 0 1
+cx 0 1
+cx 1 0
+cx 0 1
+cx 1 0
+s 1
+s 0
+s 1
+cx 1 0
+s 0
+cx 0 1
+s 1
+cx 1 0
+s 1
+s 0
+s 1
+cx 1 0
+s 0
+s 0
+s 1
+cx 1 0
+cx 0 1
+cx 1 0
+cx 1 0
+cx 1 0
+cx 1 0
+s 0
+cx 0 1
+s 1
+cx 0 1
+cx 0 1
+s 0
+cx 1 0
+cx 0 1
+s 0
+s 0
+s 0
+s 1
+cx 0 1
+s 0
+s 0
+cx 0 1
+cx 1 0
+cx 0 1
+s 0
+s 1
+s 0
+cx 1 0
+s 1
+cx 0 1
+cx 1 0
+cx 1 0
+cx 1 0
+cx 0 1
+s 0
+s 0
+cx 0 1
+cx 1 0
+s 1
+s 1
+cx 1 0
+cx 1 0
+s 0
+s 1
+s 1
+s 0
+cx 0 1
+s 1
+s 0
+s 1
+s 0
+s 1
+s 1
+s 0
+s 1
+s 1
+cx 1 0
+s 0
+s 0
+s 0
+cx 0 1
+s 0
+cx 0 1
+s 0
+s 1
+cx 0 1
+cx 1 0
+s 1
+s 0
+s 0
+cx 1 0
+s 1
+cx 0 1
+cx 1 0
+s 0
+s 0
+s 0
+cx 0 1
+cx 1 0
+s 1
+cx 0 1
+s 1
+s 1
+cx 1 0
+s 1
+s 1
+cx 1 0
+cx 1 0
+s 0
+s 0
+cx 1 0
+cx 0 1
+cx 0 1
+s 0
+s 1
+cx 0 1
+s 0
+s 1
+cx 1 0
+cx 0 1
+s 1
+s 1
+cx 1 0
+s 0
+s 0
+s 1
+s 1
+s 0
+s 1
+s 1
+s 1
+s 0
+s 0
+cx 1 0
+cx 0 1
+s 0
+cx 1 0
+cx 1 0
+cx 1 0
+s 0
+s 0
+s 1
+cx 1 0
+cx 0 1
+cx 0 1
+cx 1 0
+cx 1 0
+s 1
+cx 1 0
+s 1
+s 0
+cx 0 1
+s 0
+s 1
+cx 1 0
+s 1
+cx 0 1
+cx 1 0
+cx 1 0
+s 1
+cx 0 1
+s 0
+s 0
+cx 0 1
+cx 0 1
+s 1
+cx 1 0
+s 1
+cx 1 0
+cx 0 1
+cx 1 0
+cx 1 0
+s 0
+cx 0 1
+cx 0 1
+cx 0 1
+s 1
+cx 0 1
+cx 0 1
+s 0
+cx 1 0
+cx 1 0
+s 0
+cx 0 1
+cx 0 1
+cx 1 0
+s 1
+s 0
+cx 1 0
+s 0
+cx 0 1
+cx 1 0
+cx 1 0
+cx 0 1
+s 1
+cx 1 0
+cx 0 1
+cx 0 1
+cx 1 0
+s 1
+cx 0 1
+s 0
+cx 1 0
+s 0
+cx 0 1
+cx 0 1
+s 1
+s 0
+s 0
+cx 0 1
+cx 0 1
+s 1
+s 1
+s 1
+cx 0 1
+s 0
+cx 0 1
+s 1
+s 0
+cx 0 1
+cx 1 0
+s 0
+s 0
+cx 1 0
+s 1
+s 1
+cx 0 1
+cx 0 1
+s 0
+s 0
+s 0
+cx 0 1
+cx 1 0
+cx 1 0
+s 0
+s 1
+s 0
+s 0
+cx 0 1
+s 1
+cx 0 1
+s 0
+cx 1 0
+s 0
+s 1
+s 0
+cx 0 1
+s 0
+cx 1 0
+cx 1 0
+s 1
+cx 0 1
+cx 1 0
+s 0
+s 0
+cx 1 0
+cx 0 1
+cx 1 0
+s 1
+s 1
+s 0
+s 0
+s 1
+s 1
+cx 0 1
+cx 0 1
+s 0
+s 0
+s 0
+s 1
+cx 1 0
+s 1
+s 0
+s 0
+cx 1 0
+s 0
+s 1
+s 0
+s 0
+cx 0 1
+cx 1 0
+cx 1 0
+cx 1 0
+s 0
+s 1
+s 0
+s 1
+s 0
+s 1
+s 1
+s 1
+s 0
+cx 0 1
+cx 0 1
+cx 1 0
+s 0
+cx 1 0
+cx 1 0
+cx 1 0
+s 0
+s 1
+cx 0 1
+cx 1 0
+cx 0 1
+s 0
+s 1
+cx 1 0
+cx 1 0
+cx 0 1
+s 0
+s 0
+s 0
+cx 1 0
+cx 0 1
+s 0
+s 1
+s 1
+s 0
+cx 0 1
+s 0
+s 0
+s 1
+cx 0 1
+s 0
+s 0
+cx 1 0
+s 0
+s 0
+cx 0 1
+cx 0 1
+s 1
+s 0
+cx 0 1
+cx 0 1
+s 0
+cx 1 0
+s 0
+s 0
+s 0
+cx 1 0
+s 1
+s 0
+cx 1 0
+s 1
+s 1
+s 1
+s 1
+s 1
+cx 0 1
+s 1
+cx 1 0
+cx 1 0
+cx 1 0
+cx 1 0
+s 0
+cx 0 1
+s 1
+s 1
+s 1
+s 1
+cx 0 1
+cx 1 0
+s 0
+cx 0 1
+cx 1 0
+s 0
+s 0
+s 0
+cx 0 1
+s 0
+cx 0 1
+s 1
+s 0
+cx 0 1
+s 1
+s 1
+s 0
+s 1
+s 1
+s 0
+s 1
+cx 1 0
+s 0
+s 0
+cx 0 1
+cx 1 0
+cx 0 1
+cx 1 0
+cx 1 0
+s 1
+s 0
+s 1
+s 0
+cx 0 1
+s 0
+s 1
+s 1
+s 1
+cx 1 0
+s 1
+cx 0 1
+cx 0 1
+s 0
+cx 1 0
+cx 0 1
+cx 1 0
+cx 1 0
+s 1
+s 0
+s 0
+s 0
+s 1
+s 0
+s 0
+s 0
+cx 1 0
+cx 0 1
+s 1
+s 1
+cx 0 1
+s 0
+cx 1 0
+s 0
+cx 0 1
+cx 0 1
+cx 1 0
+s 1
+s 0
+s 1
+s 0
+s 0
+s 0
+s 0
+cx 1 0
+cx 1 0
+s 1
+cx 0 1
+cx 0 1
+s 0
+cx 0 1
+cx 1 0
+s 1
+cx 0 1
+s 1
+cx 0 1
+s 1
+s 1
+s 1
+s 1
+s 1
+cx 0 1
+s 1
+s 1
+s 1
+cx 0 1
+cx 1 0
+cx 1 0
+s 0
+s 1
+s 0
+s 1
+s 0
+s 0
+cx 1 0
+s 0
+s 0
+cx 0 1
+s 0
+s 1
+s 1
+cx 0 1
+cx 0 1
+cx 0 1
+s 1
+s 1
+cx 1 0
+cx 0 1
+cx 0 1
+cx 0 1
+s 1
+cx 0 1
+s 0
+s 1
+cx 0 1
+s 1
+s 1
+s 1
+s 0
+s 0
+cx 0 1
+cx 1 0
+s 0
+s 1
+cx 1 0
+s 1
+s 0
+cx 0 1
+s 0
+cx 0 1
+s 1
+s 0
+cx 1 0
+s 1
+s 1
+cx 1 0
+s 0
+s 0
+s 1
+cx 0 1
+s 1
+s 0
+s 1
+s 0
+s 0
+cx 0 1
+s 1
+cx 1 0
+cx 1 0
+cx 1 0
+cx 1 0
+cx 1 0
+s 1
+cx 0 1
+s 0
+cx 1 0
+cx 1 0
+cx 0 1
+cx 0 1
+cx 0 1
+cx 1 0
+s 0
+cx 0 1
+s 0
+s 1
+cx 0 1
+cx 0 1
+s 1
+cx 1 0
+s 1
+cx 0 1
+cx 0 1
+s 0
+cx 0 1
+s 0
+s 1
+s 0
+cx 1 0
+cx 0 1
+s 1
+cx 1 0
+s 1
+s 1
+cx 0 1
+cx 0 1
+s 0
+s 0
+cx 1 0
+cx 0 1
+s 1
+cx 0 1
+cx 0 1
+s 1
+cx 0 1
+cx 0 1
+cx 0 1
+s 0
+s 0
+s 1
+cx 0 1
+s 0
+cx 1 0
+s 0
+s 0
+cx 0 1
+cx 1 0
+s 1
+s 1
+s 0
+cx 1 0
+s 1
+cx 1 0
+cx 1 0
+cx 0 1
+cx 0 1
+cx 0 1
+s 1
+s 0
+s 1
+cx 0 1
+s 1
+s 0
+s 1
+cx 0 1
+s 0
+cx 0 1
+s 1
+s 1
+cx 1 0
+cx 0 1
+s 1
+cx 0 1
+cx 1 0
+s 0
+cx 0 1
+s 0
+cx 1 0
+cx 0 1
+s 1
+s 1
+cx 0 1
+cx 0 1
+cx 1 0
+cx 0 1
+s 1
+s 0
+s 0
+s 1
+cx 1 0
+cx 1 0
+cx 0 1
+s 1
+cx 1 0
+s 0
+cx 0 1
+cx 1 0
+cx 0 1
+s 0
+s 1
+s 1
+s 0
+s 0
+s 0
+s 0
+s 0
+s 0
+cx 1 0
+s 0
+cx 1 0
+cx 0 1
+cx 0 1
+s 0
+cx 1 0
+cx 0 1
+cx 1 0
+cx 0 1
+cx 1 0
+s 1
+cx 1 0
+cx 1 0
+s 1
+s 0
+s 0
+cx 1 0
+cx 0 1
+cx 1 0
+s 1
+cx 1 0
+cx 1 0
+s 1
+s 1
+s 0
+s 0
+s 1
+s 1
+cx 1 0
+s 0
+s 0
+s 1
+cx 1 0
+s 1
+s 0
+cx 1 0
+cx 0 1
+cx 0 1
+cx 1 0
+cx 1 0
+s 0
+cx 0 1
+s 1
+cx 0 1
+s 0
+s 0
+s 0
+cx 0 1
+cx 1 0
+s 0
+cx 1 0
+cx 0 1
+s 1
+cx 0 1
+s 0
+s 1
+s 1
+s 1
+cx 1 0
+cx 0 1
+s 1
+s 1
+s 1
+cx 0 1
+s 1
+cx 1 0
+s 0
+s 1
+s 1
+s 0
+cx 1 0
+s 1
+cx 0 1
+cx 1 0
+cx 0 1
+cx 1 0
+cx 1 0
+cx 0 1
+cx 1 0
+cx 1 0
+s 1
+s 1
+cx 0 1
+s 1
+cx 1 0
+cx 1 0
+s 1
+s 1
+s 1
+cx 0 1
+cx 0 1
+cx 1 0
+s 1
+s 0
+s 1
+cx 1 0
+cx 0 1
+cx 1 0
+s 1
+s 1
+cx 0 1
+cx 1 0
+s 1
+cx 0 1
+s 0
+s 1
+s 1
+s 0
+cx 1 0
+cx 1 0
+cx 1 0
+s 0
+cx 1 0
+cx 0 1
+cx 0 1
+s 0
+cx 0 1
+cx 1 0
+cx 0 1
+s 1
+s 1
+cx 1 0
+s 1
+cx 1 0
+cx 1 0
+cx 0 1
+cx 1 0
+cx 1 0
+s 0
+s 0
+s 0
+s 0
+cx 1 0
+s 1
+s 1
+cx 0 1
+cx 0 1
+cx 0 1
+cx 1 0
+s 0
+s 0
+s 0
+s 1
+cx 0 1
+s 1
+s 0
+cx 0 1
+cx 1 0
+s 0
+s 1
+cx 0 1
+s 0
+s 0
+s 1
+s 1
+cx 1 0
+cx 1 0
+s 1
+cx 1 0
+s 0
+s 1
+cx 0 1
+cx 1 0
+cx 1 0
+cx 0 1
+s 1
+s 1
+cx 0 1
+cx 0 1
+s 0
+cx 0 1
+cx 0 1
+cx 0 1
+cx 1 0
+cx 0 1
+cx 0 1
+cx 1 0
+cx 0 1
+s 0
+s 1
+s 1
+cx 0 1
+cx 1 0
+s 0
+cx 1 0
+s 0
+cx 1 0
+s 0
+cx 1 0
+cx 0 1
+s 1
+s 1
+cx 1 0
+cx 0 1
+cx 1 0
+cx 0 1
+s 0
+cx 1 0
+s 1
+s 0
+cx 0 1
+cx 1 0
+cx 0 1
+s 1
+cx 0 1
+cx 0 1
+cx 1 0
+cx 1 0
+cx 1 0
+s 0
+s 0
+s 1
+s 1
+s 0
+cx 0 1
+s 0
+cx 0 1
+s 0
+s 0
+s 0
+s 1
+cx 0 1
+cx 1 0
+cx 1 0
+cx 0 1
+cx 1 0
+cx 1 0
+s 0
+cx 0 1
+cx 1 0
+cx 0 1
+s 1
+s 0
+cx 0 1
+cx 1 0
+s 0
+cx 1 0
+cx 1 0
+cx 1 0
+s 0
+s 1
+cx 1 0
+s 1
+cx 1 0
+cx 0 1
+s 0
+s 0
+s 1
+cx 0 1
+s 0
+s 1
+s 1
+cx 0 1
+s 0
+s 0
+s 0
+s 0
+cx 1 0
+s 0
+s 1
+s 1
+cx 1 0
+s 1
+s 1
+cx 1 0
+s 1
+cx 1 0
+s 0
+s 0
+s 1
+s 1
+cx 1 0
+cx 1 0
+s 0
+cx 0 1
+cx 1 0
+cx 1 0
+cx 1 0
+cx 0 1
+s 0
+s 0
+s 1
+cx 0 1
+cx 0 1
+cx 1 0
+s 1
+cx 0 1
+cx 1 0
+cx 1 0
+cx 1 0
+s 1
+s 1
+s 0
+cx 1 0
+cx 1 0
+s 1
+cx 1 0
+s 1
+cx 1 0
+s 1
+s 1
+s 1
+cx 1 0
+s 0
+cx 0 1
+cx 1 0
+s 1
+s 1
+cx 0 1
+cx 0 1
+s 0
+s 1
+cx 0 1
+s 1
+cx 1 0
+s 0
+s 0
+cx 0 1
+cx 1 0
+s 1
+s 0
+s 0
+cx 1 0
+cx 1 0
+s 0
+cx 0 1
+cx 1 0
+s 1
+cx 1 0
+s 0
+s 1
+s 0
+cx 1 0
+s 0
+s 0
+s 0
+cx 0 1
+cx 0 1
+cx 0 1
+s 1
+cx 0 1
+s 1
+cx 0 1
+cx 0 1
+s 0
+cx 1 0
+cx 0 1
+cx 1 0
+s 1
+s 1
+s 0
+s 1
+cx 0 1
+s 0
+s 1
+s 1
+s 1
+cx 0 1
+s 1
+cx 0 1
+cx 0 1
+s 0
+cx 1 0
+s 1
+cx 1 0
+s 1
+s 0
+cx 0 1
+s 1
+cx 1 0
+s 0
+cx 0 1
+cx 0 1
+s 1
+cx 1 0
+cx 0 1
+cx 0 1
+cx 1 0
+s 1
+cx 1 0
+cx 0 1
+cx 1 0
+s 0
+cx 0 1
+cx 0 1
+s 1
+s 0
+cx 0 1
+cx 0 1
+cx 1 0
+cx 1 0
+s 1
+s 1
+cx 1 0
+cx 1 0
+cx 1 0
+s 1
+cx 0 1
+cx 1 0
+s 0
+cx 0 1
+cx 0 1
+s 0
+s 0
+s 1
+s 1
+cx 0 1
+s 0
+cx 1 0
+cx 1 0
+cx 0 1
+cx 1 0
+cx 1 0
+cx 0 1
+s 0
+s 0
+cx 1 0
+s 0
+s 0
+cx 0 1
+cx 0 1
+s 1
+cx 1 0
+s 0
+cx 0 1
+cx 0 1
+s 1
+cx 0 1
+cx 0 1
+s 0
+cx 0 1
+cx 0 1
+cx 0 1
+s 1
+s 1
+s 1
+cx 1 0
+cx 1 0
+s 0
+s 0
+cx 1 0
+cx 1 0
+cx 1 0
+s 0
+s 1
+cx 1 0
+s 0
+cx 1 0
+s 0
+s 1
+s 0
+cx 0 1
+s 0
+s 1
+cx 0 1
+cx 1 0
+cx 1 0
+cx 0 1
+s 0
+s 1
+cx 1 0
+s 0
+s 0
+cx 1 0
+s 1
+s 0
+s 1
+s 1
+cx 0 1
+s 0
+s 0
+s 0
+s 1
+s 1
+cx 0 1
+s 0
+cx 0 1
+cx 1 0
+s 1
+cx 0 1
+cx 1 0
+cx 0 1
+s 1
+cx 0 1
+s 1
+s 0
+s 0
+cx 0 1
+cx 1 0
+cx 1 0
+cx 0 1
+s 0
+s 0
+cx 0 1
+cx 0 1
+s 0
+cx 0 1
+s 1
+s 1
+cx 0 1
+s 1
+cx 0 1
+cx 1 0
+s 0
+cx 0 1
+s 0
+s 1
+s 0
+s 0
+cx 1 0
+cx 1 0
+cx 0 1
+cx 1 0
+cx 0 1
+s 0
+cx 1 0
+s 1
+s 1
+cx 0 1
+s 1
+s 1
+s 1
+cx 1 0
+cx 0 1
+s 1
+cx 1 0
+s 0
+cx 0 1
+cx 1 0
+s 0
+cx 1 0
+s 1
+cx 1 0
+s 0
+cx 1 0
+cx 0 1
+cx 0 1
+s 1
+cx 1 0
+cx 0 1
+s 1
+cx 0 1
+cx 0 1
+cx 0 1
+s 1
+s 1
+s 1
+s 1
+s 1
+s 0
+cx 1 0
+s 0
+cx 1 0
+s 1
+cx 1 0
+cx 0 1
+cx 0 1
+s 0
+s 1
+s 0
+cx 1 0
+s 0
+cx 0 1
+cx 0 1
+cx 1 0
+cx 1 0
+cx 0 1
+cx 1 0
+s 1
+cx 0 1
+s 0
+cx 0 1
+s 1
+cx 1 0
+s 1
+s 0
+cx 1 0
+s 0
+cx 1 0
+cx 1 0
+cx 0 1
+cx 1 0
+cx 1 0
+s 1
+cx 1 0
+cx 1 0
+cx 0 1
+s 1
+cx 0 1
+s 0
+s 0
+cx 0 1
+cx 1 0
+cx 1 0
+cx 0 1
+s 1
+s 0
+s 0
+cx 1 0
+cx 1 0
+s 0
+cx 1 0
+cx 1 0
+cx 0 1
+s 0
+cx 0 1
+s 1
+s 0
+cx 1 0
+s 1
+cx 0 1
+s 1
+s 0
+cx 1 0
+s 0
+s 0
+s 0
+cx 0 1
+s 1
+cx 0 1
+s 0
+cx 1 0
+cx 0 1
+s 1
+cx 0 1
+s 1
+s 1
+s 0
+cx 1 0
+cx 1 0
+cx 1 0
+s 0
+cx 1 0
+s 1
+s 0
+s 0
+s 0
+s 1
+s 0
+cx 0 1
+s 1
+cx 0 1
+s 0
+cx 1 0
+s 1
+s 0
+cx 1 0
+cx 1 0
+cx 1 0
+s 1
+s 0
+s 0
+s 1
+cx 0 1
+s 0
+s 0
+cx 1 0
+s 1
+cx 0 1
+s 0
+cx 0 1
+cx 0 1
+cx 1 0
+s 1
+cx 0 1
+s 0
+cx 1 0
+cx 1 0
+s 1
+s 0
+s 0
+s 1
+s 1
+cx 1 0
+s 0
+s 0
+cx 0 1
+cx 1 0
+s 0
+s 0
+cx 0 1
+s 1
+cx 0 1
+s 1
+s 0
+s 1
+cx 0 1
+s 1
+cx 1 0
+cx 1 0
+cx 1 0
+s 1
+cx 0 1
+cx 0 1
+cx 1 0
+s 0
+s 0
+cx 1 0
+cx 1 0
+cx 0 1
+cx 1 0
+s 0
+cx 1 0
+cx 1 0
+s 0
+cx 0 1
+cx 0 1
+s 1
+s 0
+cx 1 0
+cx 1 0
+cx 1 0
+cx 0 1
+s 0
+cx 1 0
+s 1
+cx 0 1
+s 1
+cx 0 1
+s 0
+cx 1 0
+cx 1 0
+cx 0 1
+s 0
+s 0
+cx 1 0
+s 1
+s 0
+s 0
+cx 1 0
+cx 0 1
+s 1
+cx 0 1
+cx 1 0
+s 1
+cx 1 0
+cx 0 1
+cx 1 0
+s 1
+s 1
+s 0
+cx 1 0
+cx 1 0
+s 0
+s 0
+cx 0 1
+s 0
+s 0
+s 0
+s 0
+s 1
+cx 0 1
+cx 0 1
+cx 1 0
+cx 1 0
+s 0
+s 0
+cx 1 0
+cx 0 1
+s 1
+s 0
+cx 1 0
+cx 0 1
+cx 1 0
+s 0
+s 0
+s 0
+s 0
+s 1
+cx 1 0
+s 1
+s 0
+cx 1 0
+s 0
+cx 0 1
+cx 1 0
+cx 0 1
+cx 0 1
+s 0
+s 1
+s 0
+s 0
+s 1
+s 0
+cx 1 0
+s 0
+cx 1 0
+s 0
+s 1
+cx 1 0
+s 1
+cx 0 1
+cx 1 0
+cx 1 0
+s 0
+s 0
+s 1
+s 0
+cx 1 0
+cx 0 1
+cx 0 1
+cx 1 0
+cx 0 1
+s 0
+cx 1 0
+s 0
+cx 0 1
+cx 0 1
+cx 1 0
+s 0
+cx 1 0
+cx 1 0
+cx 1 0
+cx 1 0
+s 1
+s 0
+cx 0 1
+s 0
+s 1
+s 0
+s 0
+cx 0 1
+s 1
+cx 1 0
+cx 0 1
+s 1
+cx 0 1
+cx 1 0
+s 1
+s 1
+cx 1 0
+s 1
+s 1
+s 1
+cx 1 0
+s 0
+cx 1 0
+cx 0 1
+cx 1 0
+s 1
+cx 1 0
+cx 0 1
+s 0
+cx 1 0
+s 0
+s 0
+s 1
+s 1
+s 0
+cx 1 0
+cx 0 1
+cx 0 1
+cx 0 1
+s 0
+cx 0 1
+cx 0 1
+cx 0 1
+cx 1 0
+s 1
+s 0
+s 0
+cx 0 1
+s 0
+s 1
+cx 1 0
+cx 0 1
+cx 0 1
+cx 1 0
+cx 0 1
+s 0
+cx 0 1
+cx 1 0
+s 1
+cx 1 0
+cx 1 0
+cx 0 1
+s 0
+cx 1 0
+cx 1 0
+cx 0 1
+cx 1 0
+cx 1 0
+s 1
+cx 0 1
+cx 0 1
+s 1
+cx 1 0
+cx 1 0
+s 1
+s 0
+cx 1 0
+cx 1 0
+s 0
+s 1
+cx 1 0
+s 0
+s 1
+s 0
+s 0
+cx 0 1
+s 1
+cx 0 1
+cx 1 0
+cx 0 1
+cx 0 1
+s 1
+cx 0 1
+cx 0 1
+s 1
+cx 1 0
+cx 0 1
+s 0
+cx 1 0
+s 1
+cx 1 0
+cx 0 1
+cx 1 0
+cx 0 1
+s 1
+cx 1 0
+cx 1 0
+s 0
+cx 1 0
+s 1
+cx 1 0
+s 1
+cx 1 0
+cx 0 1
+s 1
+s 1
+cx 1 0
+s 1
+cx 0 1
+s 1
+cx 0 1
+cx 1 0
+cx 1 0
+cx 1 0
+cx 0 1
+s 0
+s 0
+s 0
+cx 1 0
+s 0
+cx 1 0
+cx 1 0
+cx 0 1
+s 1
+cx 0 1
+cx 0 1
+s 0
+cx 1 0
+s 1
+s 0
+s 1
+s 1
+s 0
+cx 0 1
+cx 1 0
+cx 0 1
+s 0
+s 0
+cx 0 1
+cx 1 0
+cx 1 0
+s 0
+cx 1 0
+cx 0 1
+s 0
+cx 1 0
+s 0
+cx 0 1
+s 0
+cx 0 1
+cx 1 0
+s 1
+s 1
+s 0
+s 1
+cx 0 1
+s 0
+s 1
+cx 1 0
+cx 0 1
+s 1
+s 1
+s 1
+s 1
+s 1
+s 1
+cx 0 1
+cx 1 0
+cx 0 1
+s 0
+s 0
+cx 1 0
+cx 1 0
+cx 0 1
+s 0
+cx 1 0
+s 0
+s 0
+cx 1 0
+cx 0 1
+s 1
+s 1
+cx 0 1
+s 0
+cx 0 1
+s 1
+cx 0 1
+s 0
+cx 0 1
+cx 0 1
+s 0
+s 0
+cx 1 0
+cx 1 0
+cx 1 0
+s 1
+cx 0 1
+s 1
+s 0
+cx 1 0
+cx 0 1
+s 0
+s 1
+s 0
+cx 1 0
+cx 1 0
+s 1
+cx 1 0
+cx 1 0
+cx 0 1
+s 0
+s 1
+cx 1 0
+s 0
+cx 1 0
+s 0
+cx 0 1
+s 0
+cx 0 1
+s 1
+s 0
+s 0
+cx 0 1
+cx 1 0
+s 1
+cx 0 1
+s 1
+s 1
+s 0
+s 1
+s 1
+s 1
+cx 1 0
+s 0
+s 0
+s 0
+cx 1 0
+s 1
+s 0
+s 1
+s 0
+cx 0 1
+cx 1 0
+s 0
+cx 0 1
+s 1
+cx 0 1
+cx 1 0
+s 0
+cx 0 1
+s 0
+cx 0 1
+s 1
+s 1
+cx 1 0
+cx 1 0
+s 0
+s 0
+cx 0 1
+cx 0 1
+s 0
+cx 0 1
+cx 1 0
+s 1
+s 0
+cx 1 0
+cx 0 1
+s 1
+s 1
+s 0
+s 0
+cx 0 1
+s 1
+s 1
+s 1
+cx 1 0
+cx 1 0
+cx 1 0
+s 0
+cx 0 1
+cx 1 0
+s 1
+cx 0 1
+cx 0 1
+cx 1 0
+s 1
+s 1
+cx 0 1
+s 1
+s 0
+s 0
+s 1
+s 0
+cx 0 1
+cx 0 1
+cx 1 0
+s 0
+cx 0 1
+cx 0 1
+s 1
+cx 1 0
+cx 1 0
+s 1
+cx 1 0
+s 0
+cx 1 0
+cx 0 1
+cx 0 1
+s 1
+cx 1 0
+cx 1 0
+cx 1 0
+s 0
+cx 1 0
+s 0
+cx 1 0
+s 1
+s 1
+s 0
+cx 1 0
+s 1
+s 0
+s 1
+s 1
+s 1
+s 1
+s 1
+s 0
+s 1
+cx 0 1
+cx 0 1
+s 0
+cx 0 1
+s 0
+cx 1 0
+cx 0 1
+s 1
+cx 1 0
+cx 0 1
+s 1
+s 0
+s 1
+cx 0 1
+cx 1 0
+s 1
+cx 1 0
+cx 0 1
+s 0
+cx 1 0
+s 0
+cx 0 1
+s 0
+s 0
+cx 1 0
+cx 1 0
+cx 0 1
+s 1
+s 1
+cx 0 1
+cx 0 1
+s 0
+s 0
+s 1
+cx 0 1
+s 0
+s 0
+s 1
+cx 0 1
+cx 1 0
+s 1
+cx 1 0
+s 0
+cx 1 0
+s 0
+cx 0 1
+cx 1 0
+s 1
+s 1
+cx 1 0
+s 0
+s 0
+cx 0 1
+cx 1 0
+s 1
+cx 0 1
+s 1
+cx 1 0
+cx 0 1
+s 1
+s 1
+s 1
+s 1
+cx 1 0
+s 0
+s 1
+s 1
+cx 1 0
+s 1
+s 0
+cx 0 1
+cx 1 0
+cx 1 0
+s 1
+s 1
+s 0
+s 0
+s 0
+cx 0 1
+cx 1 0
+cx 0 1
+cx 0 1
+cx 1 0
+cx 0 1
+cx 1 0
+s 1
+s 0
+s 1
+s 1
+cx 1 0
+cx 1 0
+s 1
+cx 1 0
+s 0
+s 1
+cx 0 1
+cx 0 1
+s 1
+cx 1 0
+s 1
+cx 1 0
+cx 1 0
+s 0
+cx 1 0
+s 1
+s 1
+cx 0 1
+cx 0 1
+cx 1 0
+s 0
+cx 0 1
+cx 0 1
+cx 1 0
+s 1
+cx 1 0
+s 1
+cx 0 1
+cx 0 1
+s 1
+cx 1 0
+s 1
+s 1
+cx 1 0
+s 1
+s 0
+s 1
+s 0
+cx 0 1
+s 0
+s 1
+s 0
+s 0
+cx 0 1
+s 0
+cx 1 0
+cx 1 0
+s 1
+s 1
+s 0
+s 1
+cx 0 1
+cx 1 0
+s 0
+s 1
+s 1
+cx 1 0
+s 1
+cx 1 0
+cx 1 0
+cx 0 1
+cx 0 1
+s 0
+cx 1 0
+cx 1 0
+s 1
+cx 0 1
+cx 1 0
+cx 0 1
+cx 1 0
+cx 0 1
+cx 0 1
+cx 1 0
+cx 0 1
+s 1
+cx 0 1
+cx 0 1
+s 1
+cx 0 1
+cx 1 0
+s 0
+cx 1 0
+s 0
+cx 0 1
+s 1
+s 0
+cx 0 1
+s 0
+s 1
+s 1
+s 1
+s 1
+s 0
+cx 1 0
+s 1
+cx 0 1
+cx 0 1
+cx 1 0
+s 0
+cx 0 1
+s 0
+s 1
+s 0
+s 1
+cx 0 1
+s 0
+cx 1 0
+s 1
+cx 0 1
+cx 1 0
+s 1
+cx 0 1
+cx 0 1
+s 1
+s 1
+cx 1 0
+s 0
+cx 1 0
+cx 0 1
+cx 1 0
+cx 1 0
+s 1
+s 1
+cx 1 0
+s 1
+cx 0 1
+s 1
+s 0
+s 1
+s 0
+cx 1 0
+s 0
+s 1
+s 1
+s 1
+cx 1 0
+s 0
+cx 0 1
+s 1
+s 1
+s 0
+cx 0 1
+s 1
+s 1
+s 0
+s 0
+s 0
+cx 1 0
+s 1
+cx 0 1
+s 0
+s 1
+cx 0 1
+cx 0 1
+s 1
+s 0
+s 1
+s 1
+s 1
+s 1
+s 1
+cx 1 0
+cx 0 1
+s 0
+s 1
+s 0
+cx 1 0
+s 0
