@@ -1,4 +1,5 @@
 import os
+
 ## FIRST RUN THE RANDOM CIRCUITS ##
 
 # for size in range(2, 12):
@@ -9,7 +10,7 @@ import os
 #             os.system(f"./fp.out n={size}g={num_gates}p={p}")
 
 
-## PRINT RESULTS ##
+## PRINT RESULTS - THIS IS PRETTY HACKY, BUT SERVES THE PURPOSE OF A QUCIK VISUALIZATION ##
 import csv, re
 
 f = open("out.csv", "r")
@@ -20,18 +21,23 @@ res["0"] = []
 res["0.05"] = []
 res["0.1"] = []
 res["0.15"] = []
-res["0.3"] = []
 res["0.2"] = []
 res["0.25"] = []
+res["0.3"] = []
 
 for p in file_read:
-    if p[0] == 'fp':
+    if p[0] == "fp":
         q = re.findall("[0-9\.]+", p[1])
         res[q[2]].append([int(q[0]), float(p[2])])
 
 from matplotlib import pyplot as plt
 
 for a in res:
-    plt.plot([x[0] for x in res[a]], [x[1] for x in res[a]], label=res)
+    plt.plot([x[0] for x in res[a]], [x[1] for x in res[a]], label=f"p(H)={a}")
 
+plt.ylabel("# Seconds")
+plt.yscale("log")
+plt.title("Running Time for Feynman Path Simulation, 5000 gate CHP circuits.")
+plt.xlabel("# Qubits")
+plt.legend()
 plt.savefig("fpplots.png")
