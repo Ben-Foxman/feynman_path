@@ -1,5 +1,5 @@
 # Feynman Path Simulator in C++
-This is an implementation of the Feynman Path Method for Quantum Circuit Simulation, supporting all Clifford gates and some non-Clifford gates. To run the simulator, build ```fp.cpp```, and then invoke
+This is an implementation of the Feynman Path Method for Quantum Circuit Simulation, supporting all Clifford gates and some non-Clifford gates. To run the simulator, build ```fp.cpp``` with std>=c++17, and then invoke
 ```
 ./OUTFILE <circuit INFILE>
 ```
