@@ -87,7 +87,7 @@ void process_gate(string name, vector<int> wires){
     auto newStateUpdate = [&](int key, complex<double> value)
     {
         computation_num += 1;
-        if (newState.contains(key)){
+        if (newState.count(key)){
             newState[key] += value;
         }
         else {
@@ -95,8 +95,9 @@ void process_gate(string name, vector<int> wires){
         }
     };
 
-    if (gates.contains(name)){
+    if (gates.count(name)){
         assert(gates[name] == wires.size());
+        assert(wires.size() == 1 || adjacent_find(wires.begin(), wires.end()) == wires.end());
         gate_num += 1;
         switch (label(name))
         {
