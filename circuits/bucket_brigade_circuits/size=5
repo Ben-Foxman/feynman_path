@@ -1,0 +1,532 @@
+100
+#
+swap 5 6
+swap 6 53
+swap 4 6
+cswap 53 54 6
+x 53
+cswap 53 52 6
+swap 29 52
+swap 3 6
+x 53
+swap 77 54
+cswap 53 54 6
+x 53
+cswap 53 52 6
+swap 2 6
+cswap 29 30 52
+x 29
+cswap 29 28 52
+swap 17 28
+x 29
+swap 41 30
+x 53
+cswap 77 78 54
+x 77
+cswap 77 76 54
+cswap 53 54 6
+x 53
+cswap 53 52 6
+swap 1 6
+cswap 29 30 52
+x 29
+cswap 29 28 52
+cswap 17 18 28
+x 17
+cswap 17 16 28
+swap 11 16
+x 17
+swap 23 18
+x 29
+cswap 41 42 30
+x 41
+cswap 41 40 30
+swap 35 40
+x 41
+swap 47 42
+x 53
+swap 65 76
+x 77
+swap 89 78
+cswap 77 78 54
+x 77
+cswap 77 76 54
+cswap 53 54 6
+x 53
+cswap 53 52 6
+swap 0 6
+cswap 29 30 52
+x 29
+cswap 29 28 52
+cswap 17 18 28
+x 17
+cswap 17 16 28
+cswap 11 12 16
+x 11
+cswap 11 10 16
+x 11
+swap 14 12
+x 17
+cswap 23 24 18
+x 23
+cswap 23 22 18
+swap 20 22
+x 23
+swap 26 24
+x 29
+cswap 41 42 30
+x 41
+cswap 41 40 30
+cswap 35 36 40
+x 35
+cswap 35 34 40
+swap 32 34
+x 35
+swap 38 36
+x 41
+cswap 47 48 42
+x 47
+cswap 47 46 42
+swap 44 46
+x 47
+swap 50 48
+x 53
+cswap 65 66 76
+x 65
+cswap 65 64 76
+swap 59 64
+x 65
+swap 71 66
+x 77
+swap 8 10
+cswap 89 90 78
+x 89
+cswap 89 88 78
+cswap 77 78 54
+x 77
+cswap 77 76 54
+cswap 53 54 6
+x 53
+cswap 53 52 6
+cswap 29 30 52
+x 29
+cswap 29 28 52
+cswap 17 18 28
+x 17
+cswap 17 16 28
+cswap 11 12 16
+x 11
+cswap 11 10 16
+x 11
+x 11
+cswap 14 15 12
+x 14
+cswap 14 13 12
+x 14
+x 14
+cswap 14 13 12
+x 14
+cswap 14 15 12
+x 17
+x 17
+cswap 23 24 18
+x 23
+cswap 23 22 18
+cswap 20 21 22
+x 20
+cswap 20 19 22
+x 20
+x 20
+cswap 20 19 22
+x 20
+cswap 20 21 22
+x 23
+x 23
+cswap 23 22 18
+swap 20 22
+x 23
+cswap 26 27 24
+x 26
+cswap 26 25 24
+x 26
+x 26
+cswap 26 25 24
+x 26
+cswap 26 27 24
+cswap 23 24 18
+x 23
+swap 26 24
+x 29
+x 29
+cswap 41 42 30
+x 41
+cswap 41 40 30
+cswap 35 36 40
+x 35
+cswap 35 34 40
+cswap 32 33 34
+x 32
+cswap 32 31 34
+x 32
+x 32
+cswap 32 31 34
+x 32
+cswap 32 33 34
+x 35
+x 35
+cswap 35 34 40
+swap 32 34
+x 35
+cswap 38 39 36
+x 38
+cswap 38 37 36
+x 38
+x 38
+cswap 38 37 36
+x 38
+cswap 38 39 36
+cswap 35 36 40
+x 35
+swap 38 36
+x 41
+x 41
+cswap 41 40 30
+cswap 35 34 40
+x 35
+cswap 35 36 40
+x 41
+cswap 47 48 42
+x 47
+cswap 47 46 42
+cswap 44 45 46
+x 44
+cswap 44 43 46
+x 44
+x 44
+cswap 44 43 46
+x 44
+cswap 44 45 46
+x 47
+x 47
+cswap 47 46 42
+swap 44 46
+x 47
+cswap 50 51 48
+x 50
+cswap 50 49 48
+x 50
+x 50
+cswap 50 49 48
+x 50
+cswap 50 51 48
+cswap 47 48 42
+cswap 41 42 30
+x 41
+x 47
+cswap 47 46 42
+x 47
+swap 50 48
+cswap 47 48 42
+x 53
+x 53
+cswap 65 66 76
+x 65
+cswap 65 64 76
+cswap 59 60 64
+x 59
+cswap 59 58 64
+swap 56 58
+x 59
+swap 62 60
+x 65
+cswap 71 72 66
+x 71
+cswap 71 70 66
+swap 68 70
+x 71
+swap 74 72
+x 77
+cswap 8 9 10
+x 8
+cswap 8 7 10
+x 8
+x 8
+cswap 8 7 10
+x 8
+cswap 8 9 10
+cswap 11 10 16
+x 11
+cswap 11 12 16
+x 11
+swap 14 12
+cswap 17 16 28
+x 17
+cswap 17 18 28
+x 17
+cswap 23 22 18
+x 23
+cswap 23 24 18
+cswap 29 28 52
+x 29
+cswap 29 30 52
+x 29
+cswap 41 40 30
+swap 35 40
+x 41
+cswap 41 42 30
+x 41
+swap 47 42
+cswap 53 52 6
+x 53
+swap 8 10
+cswap 11 10 16
+x 11
+cswap 11 12 16
+cswap 17 16 28
+swap 11 16
+x 17
+cswap 17 18 28
+x 17
+swap 23 18
+cswap 29 28 52
+cswap 17 16 28
+x 17
+cswap 17 18 28
+x 29
+cswap 29 30 52
+x 29
+cswap 41 40 30
+x 41
+cswap 41 42 30
+swap 83 88
+x 89
+swap 95 90
+cswap 89 90 78
+x 89
+cswap 89 88 78
+cswap 77 78 54
+x 77
+cswap 77 76 54
+cswap 65 66 76
+x 65
+cswap 65 64 76
+cswap 59 60 64
+x 59
+cswap 59 58 64
+cswap 56 57 58
+x 56
+cswap 56 55 58
+x 56
+x 56
+cswap 56 55 58
+x 56
+cswap 56 57 58
+x 59
+x 59
+cswap 59 58 64
+swap 56 58
+x 59
+cswap 62 63 60
+x 62
+cswap 62 61 60
+x 62
+x 62
+cswap 62 61 60
+x 62
+cswap 62 63 60
+cswap 59 60 64
+x 59
+swap 62 60
+x 65
+x 65
+cswap 65 64 76
+cswap 59 58 64
+x 59
+cswap 59 60 64
+x 65
+cswap 71 72 66
+x 71
+cswap 71 70 66
+cswap 68 69 70
+x 68
+cswap 68 67 70
+x 68
+x 68
+cswap 68 67 70
+x 68
+cswap 68 69 70
+x 71
+x 71
+cswap 71 70 66
+swap 68 70
+x 71
+cswap 74 75 72
+x 74
+cswap 74 73 72
+x 74
+x 74
+cswap 74 73 72
+x 74
+cswap 74 75 72
+cswap 71 72 66
+cswap 65 66 76
+x 65
+x 71
+cswap 71 70 66
+x 71
+swap 74 72
+cswap 71 72 66
+x 77
+x 77
+cswap 77 76 54
+cswap 65 64 76
+swap 59 64
+x 65
+cswap 65 66 76
+x 65
+swap 71 66
+x 77
+cswap 83 84 88
+x 83
+cswap 83 82 88
+swap 80 82
+x 83
+swap 86 84
+x 89
+cswap 95 96 90
+x 95
+cswap 95 94 90
+cswap 89 90 78
+x 89
+cswap 89 88 78
+cswap 83 84 88
+x 83
+cswap 83 82 88
+cswap 80 81 82
+x 80
+cswap 80 79 82
+x 80
+x 80
+cswap 80 79 82
+x 80
+cswap 80 81 82
+x 83
+x 83
+cswap 83 82 88
+swap 80 82
+x 83
+cswap 86 87 84
+x 86
+cswap 86 85 84
+x 86
+x 86
+cswap 86 85 84
+x 86
+cswap 86 87 84
+cswap 83 84 88
+x 83
+swap 86 84
+x 89
+x 89
+cswap 89 88 78
+cswap 83 82 88
+x 83
+cswap 83 84 88
+x 89
+swap 92 94
+x 95
+swap 98 96
+cswap 95 96 90
+x 95
+cswap 95 94 90
+cswap 92 93 94
+x 92
+cswap 92 91 94
+x 92
+x 92
+cswap 92 91 94
+x 92
+cswap 92 93 94
+x 95
+x 95
+cswap 95 94 90
+swap 92 94
+x 95
+cswap 98 99 96
+x 98
+cswap 98 97 96
+x 98
+x 98
+cswap 98 97 96
+x 98
+cswap 98 99 96
+cswap 95 96 90
+cswap 89 90 78
+cswap 77 78 54
+cswap 53 54 6
+swap 0 6
+x 53
+cswap 53 52 6
+cswap 29 28 52
+swap 17 28
+x 29
+cswap 29 30 52
+x 29
+swap 41 30
+x 53
+x 77
+cswap 77 76 54
+cswap 65 64 76
+x 65
+cswap 65 66 76
+x 77
+x 89
+cswap 89 88 78
+swap 83 88
+x 89
+x 95
+cswap 95 94 90
+x 95
+swap 98 96
+cswap 95 96 90
+cswap 89 90 78
+cswap 77 78 54
+cswap 53 54 6
+swap 1 6
+x 53
+cswap 53 52 6
+cswap 29 28 52
+x 29
+cswap 29 30 52
+x 53
+x 77
+cswap 77 76 54
+swap 65 76
+x 77
+x 89
+cswap 89 88 78
+x 89
+swap 95 90
+cswap 89 90 78
+cswap 77 78 54
+cswap 53 54 6
+swap 2 6
+x 53
+cswap 53 52 6
+swap 29 52
+x 53
+x 77
+cswap 77 76 54
+x 77
+swap 89 78
+cswap 77 78 54
+cswap 53 54 6
+swap 3 6
+x 53
+cswap 53 52 6
+x 53
+swap 77 54
+cswap 53 54 6
+swap 4 6
+swap 6 53
+swap 5 6

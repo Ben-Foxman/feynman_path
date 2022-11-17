@@ -1,0 +1,66 @@
+bucket_brigade_circuits/size=1,  0.000138306 seconds
+bucket_brigade_circuits/size=2,  0.00185248 seconds
+bucket_brigade_circuits/size=3,  0.000723047 seconds
+bucket_brigade_circuits/size=4,  0.00344886 seconds
+bucket_brigade_circuits/size=5,  0.00530111 seconds
+bucket_brigade_circuits/size=6,  0.0107925 seconds
+bucket_brigade_circuits/size=7,  0.0184188 seconds
+bucket_brigade_circuits/size=8,  0.0444667 seconds
+bucket_brigade_circuits/size=9,  0.0764988 seconds
+bucket_brigade_circuits/size=10,  0.124578 seconds
+bucket_brigade_circuits/size=11,  0.245425 seconds
+fp,shifan_qram_2bit.txt,5.666e-06 seconds
+fp,shifan_qram_2bit.txt,2.666e-06 seconds
+fp,shifan_qram_2bit.txt,4.208e-06 seconds
+fp,shifan_qram_2bit.txt,2.791e-06 seconds
+fp,shifan_qram_2bit.txt, 2.958e-06 seconds
+fp,shifan_qram_2bit.txt, 3.584e-06 seconds
+fp,shifan_qram_2bit.txt, 4.667e-06 seconds
+fp,shifan_qram_2bit.txt, 5.209e-06 seconds
+fp,shifan_qram_2bit.txt, 0.000997667 seconds
+fp, shifan_qram_2bit.txt, 0.00261771 seconds
+fp, shifan_qram_2bit.txt, 0.000423375 seconds
+fp, shifan_qram_2bit.txt, 0.00285596 seconds
+fp, shifan_qram_2bit.txt, 0.000641958 seconds
+fp, shifan_qram_2bit.txt, 0.000632875 seconds
+fp, shifan_qram_2bit.txt, 0.000886375 seconds
+fp, shifan_qram_2bit.txt, 0.000564875 seconds
+fp, shifan_qram_2bit.txt, 0.000584375 seconds
+fp, shifan_qram_2bit.txt, 0.00079725 seconds
+fp, shifan_qram_2bit.txt, 0.000597208 seconds
+fp, shifan_qram_2bit.txt, 0.000852125 seconds
+fp, shifan_qram_2bit.txt, 0.000495792 seconds
+fp, shifan_qram_2bit.txt, 0.000506666 seconds
+fp, shifan_qram_2bit.txt, 0.00108358 seconds
+fp, shifan_qram_2bit.txt, 0.000493209 seconds
+fp, shifan_qram_2bit.txt, 0.000504375 seconds
+fp, shifan_qram_2bit.txt, 0.00051925 seconds
+fp, shifan_qram_2bit.txt, 0.000519125 seconds
+fp, shifan_qram_2bit.txt, 0.000488583 seconds
+fp, shifan_qram_2bit.txt, 0.000593958 seconds
+fp, shifan_qram_2bit.txt, 0.00050675 seconds
+fp, shifan_qram_2bit.txt, 0.0004915 seconds
+fp, shifan_qram_2bit.txt, 0.000463666 seconds
+fp, shifan_qram_2bit.txt, 0.000453167 seconds
+fp, shifan_qram_2bit.txt, 0.000459541 seconds
+fp, shifan_qram_2bit.txt, 0.000488666 seconds
+fp, shifan_qram_2bit.txt, 0.000966708 seconds
+fp, shifan_qram_2bit.txt, 0.000921542 seconds
+fp, shifan_qram_2bit.txt, 0.000625209 seconds
+fp, shifan_qram_2bit.txt, 0.000463292 seconds
+fp, shifan_qram_2bit.txt, 0.000982541 seconds
+fp, shifan_qram_2bit.txt, 0.000487291 seconds
+fp, shifan_qram_2bit.txt, 0.000477208 seconds
+fp, shifan_qram_2bit.txt, 0.000894958 seconds
+fp, shifan_qram_2bit.txt, 0.000489584 seconds
+fp, shifan_qram_2bit.txt, 0.000608875 seconds
+fp, shifan_qram_2bit.txt, 0.000723875 seconds
+fp, shifan_qram_2bit.txt, 0.000472083 seconds
+fp, shifan_qram_2bit.txt, 0.000500417 seconds
+fp, shifan_qram_2bit.txt, 0.000490125 seconds
+fp, shifan_qram_2bit.txt, 0.000471167 seconds
+fp, shifan_qram_2bit.txt, 0.000787208 seconds
+fp, shifan_qram_2bit.txt, 0.000555708 seconds
+fp, shifan_qram_2bit.txt, 0.000569666 seconds
+fp, shifan_qram_2bit.txt, 0.00157808 seconds
+fp, shifan_qram_2bit.txt, 0.0015315 seconds

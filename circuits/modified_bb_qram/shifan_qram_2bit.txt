@@ -1,0 +1,75 @@
+30
+#
+h 5
+cx 5 4
+x 5
+h 3
+cx 3 2
+cx 5 3
+cx 4 2
+x 26
+x 29
+swap 5 7 
+swap 4 6 
+swap 6 22 
+swap 7 23 
+swap 3 7 
+swap 2 6 
+cswap 23 7 25 
+cswap 23 6 24 
+cswap 22 7 21 
+cswap 22 6 20 
+swap 10 20 
+swap 11 21 
+swap 16 24 
+swap 17 25 
+cx 16 15 
+cx 17 19 
+cx 10 9 
+cx 11 13 
+cswap 26 18 19 
+cswap 27 14 15 
+cswap 28 12 13 
+cswap 29 8 9 
+cx 18 24 
+cx 19 25 
+cx 14 24 
+cx 15 25 
+cx 12 20 
+cx 13 21 
+cx 8 20 
+cx 9 21 
+cx 24 0 
+cx 25 1 
+cx 20 0 
+cx 21 1 
+cx 18 24 
+cx 19 25 
+cx 14 24 
+cx 15 25 
+cx 12 20 
+cx 13 21 
+cx 8 20 
+cx 9 21 
+cswap 26 18 19 
+cswap 27 14 15 
+cswap 28 12 13 
+cswap 29 8 9 
+cx 16 15 
+cx 17 19 
+cx 10 9 
+cx 11 13 
+swap 10 20 
+swap 11 21 
+swap 16 24 
+swap 17 25 
+cswap 23 7 25 
+cswap 23 6 24 
+cswap 22 7 21 
+cswap 22 6 20 
+swap 3 7 
+swap 2 6 
+swap 6 22 
+swap 7 23 
+swap 5 7 
+swap 4 6
