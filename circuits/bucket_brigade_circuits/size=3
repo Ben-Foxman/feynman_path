@@ -1,5 +1,8 @@
 26
 #
+h 3
+h 2
+h 1
 swap 3 4
 swap 4 15
 swap 2 4
@@ -39,12 +42,14 @@ x 12
 x 12
 cswap 12 11 10
 x 12
+x 13
 cswap 12 13 10
 x 9
 cswap 9 8 14
 cswap 6 7 8
 x 6
 cswap 6 5 8
+x 5
 x 6
 x 6
 cswap 6 5 8
@@ -74,6 +79,7 @@ x 18
 x 18
 cswap 18 17 20
 x 18
+x 19
 cswap 18 19 20
 x 21
 x 21
@@ -87,6 +93,7 @@ x 24
 x 24
 cswap 24 23 22
 x 24
+x 25
 cswap 24 25 22
 cswap 21 22 16
 cswap 15 16 4

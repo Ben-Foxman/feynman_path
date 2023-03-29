@@ -4,17 +4,20 @@
 #include <iostream>
 #include <fstream>
 #include <vector>
+#include <format>
 #include <assert.h>
 #include <string_view>
 #include <bitset>
+#include "BigInt.hpp"
 using namespace std;
 using namespace std::complex_literals;
 
 map<string, int> gates;
 
-int n, N;
-int gate_num = 0, computation_num = 0;
-map<int, complex<double>> state;
+int n;
+BigInt N;
+BigInt gate_num = 0, computation_num = 0;
+map<BigInt, complex<double>> state;
 
 void init_gates()
 {
@@ -33,7 +36,7 @@ void init_gates()
     gates["tdg"] = 1;
 }
 
-string format_state(int ket, complex<double> amplitude)
+string format_state(BigInt ket, complex<double> amplitude)
 {
     double real = amplitude.real() != -0.0 ? amplitude.real() : 0;
     double imag = amplitude.imag() != -0.0 ? amplitude.imag() : 0;
@@ -52,7 +55,7 @@ string format_state(int ket, complex<double> amplitude)
         {
             s.append(to_string(imag)).append("i");
         }
-        s.append("|").append(bitset<256>(ket).to_string().substr(bitset<256>(ket).to_string().size() - n)).append(">");
+        s.append("|" + ket.to_string() + ">");
         s.append("\n");
     }
 
@@ -116,23 +119,31 @@ int label(string name)
     return -1;
 }
 
-// get kth LSB of i, where 0 <= i < N
-int get_bit(int i, int k)
+// TODO: make BigInt compatibility work
+//  get kth LSB of i, where 0 <= i < N
+int get_bit(BigInt i, int k)
 {
-    return ((1 << k) & i) >> k;
+    BigInt b = i;
+    for (int j = 0; j < k; j++)
+    {
+        b /= 2;
+    }
+    return (b % 2).to_int();
 }
 
 // flip kth LSB of i, where 0 <= i < N
-int flip_bit(int i, int k)
+BigInt flip_bit(BigInt i, int k)
 {
-    return (1 << k) ^ i;
+    int b = 1 - 2 * get_bit(i, k);
+    BigInt c = pow(BigInt(2), k);
+    return BigInt(i) + BigInt(b) * c;
 }
 
 void process_gate(string name, vector<int> wires)
 {
-    map<int, complex<double>> newState;
+    std::map<BigInt, complex<double>> newState;
 
-    auto newStateUpdate = [&](int key, complex<double> value)
+    auto newStateUpdate = [&](BigInt key, complex<double> value)
     {
         computation_num += 1;
         if (newState.count(key))
@@ -155,7 +166,7 @@ void process_gate(string name, vector<int> wires)
         case 0: // h
             for (const auto &[ket, amplitude] : state)
             {
-                int newKet = flip_bit(ket, wires[0]);
+                BigInt newKet = flip_bit(ket, wires[0]);
                 switch (get_bit(ket, wires[0]))
                 {
                 case 0:
@@ -315,7 +326,7 @@ int main(int argc, char **argv)
         if (first)
         {
             n = stoi(line);
-            N = pow(2, n);
+            N = pow(BigInt(2), n);
             first = false;
             second = true;
         }
@@ -338,7 +349,6 @@ int main(int argc, char **argv)
             {
                 if (wire.compare("//") == 0) // comments
                 {
-                    cout << "frgfd" << endl;
                     break;
                 }
                 assert(0 <= stoi(wire) && stoi(wire) < n);
@@ -351,24 +361,40 @@ int main(int argc, char **argv)
 
     auto exectime = chrono::duration_cast<std::chrono::nanoseconds>(end - start).count();
 
-    cout << "--- Feynman Path Simulator ---" << endl
-         << endl;
-
     if (argc > 2 && string(argv[2]) == "-p")
     {
-        for (const auto &[ket, amplitude] : state)
+        cout << "--- Feynman Path Simulator ---" << endl
+             << endl;
+    }
+
+    ofstream data;
+    if (argc > 3 && string(argv[2]) == "-d")
+    {
+        data.open("data/" + string(argv[3]), fstream::trunc);
+    }
+
+    for (const auto &[ket, amplitude] : state)
+    {
+        if (argc > 3 && string(argv[2]) == "-d")
+        {
+            data << ket << "," << amplitude << endl;
+        }
+        if (argc > 2 && string(argv[2]) == "-p")
         {
             cout << format_state(ket, amplitude);
         }
+    }
+    if (argc > 2 && string(argv[2]) == "-p")
+    {
         cout << endl;
+        cout << "Gate count: " << gate_num << endl;
+        cout << "Feynman Path Edges: " << computation_num << endl
+             << endl;
+        cout << "Execution Time: " << exectime / 1000000000.0 << " seconds" << endl;
     }
 
-    cout << "Gate count: " << gate_num << endl;
-    cout << "Feynman Path Edges: " << computation_num << endl
-         << endl;
-    cout << "Execution Time: " << exectime / 1000000000.0 << " seconds" << endl;
-
     // write filename, exectime to outfile
-    ofstream out("bboutput.csv", ios_base::app);
-    out << "fp, " << argv[1] << ", " << exectime / 1000000000.0 << " seconds" << endl;
+    ofstream runtime("bboutput.csv", fstream::app);
+
+    runtime << "fp, " << argv[1] << ", " << exectime / 1000000000.0 << " seconds" << endl;
 }
