@@ -29,7 +29,7 @@ cnot_counter = 2 ** n
 
 # makes a cswap operation dual rail. 
 def dual_rail_cswap(x, y, z):
-    return f"cswap {x} {y} {z} \ncswap {x+1} {y+1} {z+1} \n"
+    return f"cswap {x} {y} {z} \ncswap {x} {y+1} {z+1} \n"
 
 # make a swap operation dual rail. 
 def dual_rail_swap(x, y):
@@ -99,9 +99,8 @@ def modified_qram():
                 if depth < i:
                     # add cswap gadget, then add children
                     # gates += f"adding a cswap gadget at router {current}\n"
-                    gates += dual_rail_cswap(middle_qubit(current), right_qubit(current), right_qubit(parent))
-                    gates += f"x {middle_qubit(current)}\n"
                     gates += dual_rail_cswap(middle_qubit(current), left_qubit(current), left_qubit(parent))
+                    gates += dual_rail_cswap(middle_qubit(current) + 1, right_qubit(current), right_qubit(parent))
                     # add swap to child nodes
                     childs = children(current)
                     gates += dual_rail_swap(left_qubit(current), middle_qubit(childs[0]))
@@ -111,9 +110,13 @@ def modified_qram():
                 # add cnot/swap gadget at leaves (STEP 2)
                 if depth == n - 1:
                     # gates += f"adding a cnot at leaf router {current}\n"
-                    gates += dual_rail_cnot(middle_qubit(current), right_qubit(current))
-                    gates += f"x {middle_qubit(current)}\n"
-                    gates += dual_rail_cnot(middle_qubit(current), left_qubit(current))
+                    gates += f"cx {middle_qubit(current)} {left_qubit(current)}\n"
+                    gates += f"cx {middle_qubit(current) + 1} {right_qubit(current)}\n"
+
+                    # OLD gadget: not correct 
+                    # gates += dual_rail_cnot(middle_qubit(current), right_qubit(current))
+                    # gates += f"x {middle_qubit(current)}\n"
+                    # gates += dual_rail_cnot(middle_qubit(current), left_qubit(current))
                     
                     # randomly add data
                     if random.random() < .5:

@@ -12,32 +12,23 @@ swap 4 14
 swap 5 15 
 swap 2 4 
 swap 3 5 
-cswap 14 16 4 
-cswap 15 17 5 
-x 14
 cswap 14 12 4 
-cswap 15 13 5 
+cswap 14 13 5 
+cswap 15 16 4 
+cswap 15 17 5 
 swap 12 8 
 swap 13 9 
 swap 16 20 
 swap 17 21 
-cx 8 10
-cx 9 11 
-x 8
 cx 8 6
-cx 9 7 
-swap 6 7
+cx 9 10
 swap 10 11
 cx 6 24
 cx 7 25 
 cx 10 24
 cx 11 25 
-cx 20 22
-cx 21 23 
-x 20
 cx 20 18
-cx 21 19 
-swap 18 19
+cx 21 22
 cx 18 26
 cx 19 27 
 cx 22 26
@@ -50,32 +41,23 @@ cx 23 27
 cx 22 26
 cx 19 27 
 cx 18 26
-swap 18 19
-cx 21 19 
+cx 21 22
 cx 20 18
-x 20
-cx 21 23 
-cx 20 22
 cx 11 25 
 cx 10 24
 cx 7 25 
 cx 6 24
 swap 10 11
-swap 6 7
-cx 9 7 
+cx 9 10
 cx 8 6
-x 8
-cx 9 11 
-cx 8 10
 swap 17 21 
 swap 16 20 
 swap 13 9 
 swap 12 8 
-cswap 15 13 5 
-cswap 14 12 4 
-x 14
 cswap 15 17 5 
-cswap 14 16 4 
+cswap 15 16 4 
+cswap 14 13 5 
+cswap 14 12 4 
 swap 3 5 
 swap 2 4 
 swap 5 15 
