@@ -1,6 +1,6 @@
 # compute the partial trace of an n-qubit quantum state, given as a statevector dictionary of amplitudes for the observed and expected values
 # 0 <= k < n: trace out all but first k qubits.
-# compute <expected|Tr_R(observed)|expected> = <A|B|C>
+# compute <Tr_R(expected)|Tr_R(observed)|Tr_R(expected)> = <A|B|C>
 # partial trace: http://www.thphy.uni-duesseldorf.de/~ls3/teaching/1515-QOQI/Additional/partial_trace.pdf
 
 import numpy as np
