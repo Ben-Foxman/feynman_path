@@ -5,8 +5,9 @@
 
 import numpy as np
 
-
 def queryFidelity(k, observed, expected):
+    print(observed, expected)
+    print(observed == expected)
     # step 0: compute the effective expected output state 
     phi_out = dict()
     for i, j in expected.items():
@@ -16,22 +17,45 @@ def queryFidelity(k, observed, expected):
             phi_out[i & ((2 ** k) - 1)] = [np.abs(j)]
     for i in phi_out:
         phi_out[i] = np.linalg.norm(phi_out[i], 2)
-    
-    # step 1: compute the effective observed output state 
+
+
+
+    # # step 0: compute the partial trace of the expected output state 
+    # phi_out = dict()
+    # # compare all basis state pairs
+    # for k1, v1 in expected.items():
+    #     for k2, v2 in expected.items():
+    #         # if they are equal after the trace, then add their amplitdues 
+    #         if k1 & ((2 ** k) - 1) == k2 & ((2 ** k) - 1):
+    #             amplitude = k1 & ((2 ** k) - 1)
+    #             if amplitude in phi_out:
+    #                 phi_out[k1 & ((2 ** k) - 1)] += v1 * np.conjugate(v2)
+    #             else: 
+    #                 phi_out[k1 & ((2 ** k) - 1)] = v1 * np.conjugate(v2)
+
+
+   
+    # step 1: compute the partial trace of the observed output state 
     rho_out = dict()
-    for i, j in observed.items():
-        if i & ((2 ** k) - 1) in rho_out:
-            rho_out[i & ((2 ** k) - 1)].append(np.abs(j))
-        else:
-            rho_out[i & ((2 ** k) - 1)] = [np.abs(j)]
+    # compare all basis state pairs
+    for k1, v1 in observed.items():
+        for k2, v2 in observed.items():
+            # if they are equal after the trace, then add their amplitdues 
+            if k1 & ((2 ** k) - 1) == k2 & ((2 ** k) - 1):
+                amplitude = k1 & ((2 ** k) - 1)
+                if amplitude in rho_out:
+                    rho_out[k1 & ((2 ** k) - 1)].append(v1 * np.conjugate(v2))
+                else: 
+                    rho_out[k1 & ((2 ** k) - 1)] = [v1 * np.conjugate(v2)]
     for i in rho_out:
         rho_out[i] = np.linalg.norm(rho_out[i], 2)
-    
+
     ans = 0
     for k1, v1 in phi_out.items():
         for k2, v2 in rho_out.items():
             if k1 == k2:
-                ans += v1 * v2 
+                ans += np.conjugate(v1) * v2 * v1
+
     return np.real(ans)
     
 
@@ -67,3 +91,4 @@ def queryFidelity(k, observed, expected):
                 ABC += np.conjugate(v1) * v2
 
     return np.real(ABC) # we get a complex number with no imaginary part, so just discard it 
+

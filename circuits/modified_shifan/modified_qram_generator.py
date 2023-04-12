@@ -121,10 +121,8 @@ def modified_qram():
                     # randomly add data
                     if random.random() < .5:
                         gates += f"swap {left_qubit(current)} {left_qubit(current) + 1}\n"
-                        print(left_qubit(current))
                     if random.random() < .5:
                         gates += f"swap {right_qubit(current)} {right_qubit(current) + 1}\n"
-                        print(right_qubit(current))
                     # STEP 3: outgoing CNOTs
                     # gates += f"adding initial outoing cnot at leaf router {current}\n"
                     target = cnot_offset + 2 * (tree_layout.index(current) - len(tree_layout) // 2)
@@ -162,5 +160,5 @@ def modified_qram():
     # for step 3 later
     return f"{cnot_offset + ((2 ** n) * 2) - 2}\n#\n" + gates + "\n".join(lst)
 
-with open(f"size={n}.txt", "w+") as f:
+with open(f"circuits/modified_shifan/size={n}", "w+") as f:
     f.write(modified_qram())

@@ -1,9 +1,0 @@
-12
-#
-h 0
-cx 0 1
-x 1
-swap 0 2 
-swap 1 3 
-swap 2 6 
-swap 3 7 

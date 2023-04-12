@@ -1,0 +1,33 @@
+Experiment: modified_shifan2, z_gate_error. prob = 10^-3. # of monte carlo samples: 10. Mean Fidelity: 1.0000000000000002. Std Dev:0.0
+Experiment: modified_shifan2, z_gate_error. prob = 10^-3. # of monte carlo samples: 10. Mean Fidelity: 1.0000000000000002. Std Dev:0.0
+Experiment: modified_shifan2, z_gate_error. prob = 10^-1. # of monte carlo samples: 10. Mean Fidelity: 1.0000000000000002. Std Dev:0.0
+Experiment: modified_shifan2, x_gate_error. prob = 10^-1. # of monte carlo samples: 10. Mean Fidelity: [0.8]. Std Dev:[0.4]
+Experiment: modified_shifan2, x_gate_error. prob = 10^-1. # of monte carlo samples: 10. Mean Fidelity: 0.4000000000000001. Std Dev:0.4898979485566357
+Experiment: modified_shifan2, x_gate_error. prob = 10^-3. # of monte carlo samples: 10. Mean Fidelity: 1.0000000000000002. Std Dev:0.0
+Experiment: modified_shifan2, x_gate_error. prob = 10^-2. # of monte carlo samples: 10. Mean Fidelity: 0.9000000000000001. Std Dev:0.30000000000000004
+Experiment: modified_shifan2, x_gate_error. prob = 10^-4. # of monte carlo samples: 10. Mean Fidelity: 1.0000000000000002. Std Dev:0.0
+Experiment: modified_shifan2, x_gate_error. prob = 10^-1. # of monte carlo samples: 10. Mean Fidelity: 0.8000000000000002. Std Dev:0.40000000000000013
+Experiment: modified_shifan2, x_gate_error. prob = 10^-2. # of monte carlo samples: 10. Mean Fidelity: 0.9000000000000001. Std Dev:0.30000000000000004
+Experiment: modified_shifan2, x_gate_error. prob = 10^-4. # of monte carlo samples: 100. Mean Fidelity: 1.0000000000000002. Std Dev:0.0
+Experiment: modified_shifan2, z_gate_error. prob = 10^-4. # of monte carlo samples: 100. Mean Fidelity: 1.0000000000000002. Std Dev:0.0
+
+Experiment: modified_shifan2, z_gate_error. prob = 10^-4. # of monte carlo samples: 100. Mean Fidelity: 1.0000000000000002. Std Dev:0.0
+
+Experiment: modified_shifan2, z_gate_error. prob = 10^-4. # of monte carlo samples: 100. Mean Fidelity: 1.0000000000000002. Std Dev:0.0
+
+Experiment: modified_shifan2, z_gate_error. prob = 10^-1000. # of monte carlo samples: 100. Mean Fidelity: 0.5000000000000001. Std Dev:0.0
+
+Experiment: modified_shifan2, z_gate_error. prob = 10^-2. # of monte carlo samples: 100. Mean Fidelity: 0.5000000000000001. Std Dev:0.0
+
+Experiment: modified_shifan2, z_gate_error. prob = 10^-2. # of monte carlo samples: 100. Mean Fidelity: 0.25. Std Dev:0.0
+
+Experiment: modified_shifan2, z_gate_error. prob = 10^-1. # of monte carlo samples: 10. Mean Fidelity: 0.25. Std Dev:0.0
+
+Experiment: modified_shifan2, z_gate_error. prob = 10^-1. # of monte carlo samples: 10. Mean Fidelity: 0.25. Std Dev:0.0
+
+Experiment: modified_shifan2, z_gate_error. prob = 10^-1. # of monte carlo samples: 10. Mean Fidelity: 0.25. Std Dev:0.0
+
+Experiment: modified_shifan2, z_gate_error. prob = 10^-2. # of monte carlo samples: 10. Mean Fidelity: 0.25. Std Dev:0.0
+
+Experiment: modified_shifan2, z_gate_error. prob = 10^-3. # of monte carlo samples: 10. Mean Fidelity: 0.25. Std Dev:0.0
+
