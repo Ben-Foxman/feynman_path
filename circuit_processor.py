@@ -9,9 +9,10 @@ import string
 Read in a BB circuit, add some Z noise, then generate data
 """
 n = int(sys.argv[1])
-SHOTS = 5000
-exp = 5 # error prob is 10^{-exp}
+SHOTS = int(sys.argv[2])
+exp = int(sys.argv[3]) # error prob is 10^{-exp}
 
+error_type = "z_gate_error"
 fidelities = []
 with open(f"circuits/bucket_brigade_circuits/size={n}") as bb:
     # obtain the data for the good simulator
@@ -35,12 +36,8 @@ with open(f"circuits/bucket_brigade_circuits/size={n}") as bb:
                 # NOTE THE ERROR: z error, 1/1000 probability
                 ra = random.random()
                 prob = 10 ** -exp
-                if int(tokens[i]) > n:
-                    if ra < prob / 3:
-                        error_circuit.append(f"x {tokens[i]}\n")
-                    elif ra < 2 * prob / 3:
-                        error_circuit.append(f"y {tokens[i]}\n")
-                    elif ra < prob:
+                if int(tokens[i]) > n: # n is specific to BB architecture 
+                    if ra < prob:
                         error_circuit.append(f"z {tokens[i]}\n")
                     
         
@@ -55,7 +52,7 @@ with open(f"circuits/bucket_brigade_circuits/size={n}") as bb:
 
         # get the data of the error circuit
         observed = dict()
-        with open(f"data/bb{random_name}error") as res:
+        with open(f"data/bb{random_name}error", "w+") as res:
             for line in res.readlines():
                 ket, real, imag = line.replace("(", "").strip(")\(\n").split(",")
                 observed[int(ket)] = float(real) + 1j * float(imag)
@@ -67,9 +64,14 @@ with open(f"circuits/bucket_brigade_circuits/size={n}") as bb:
         fidelities.append(fidelity)
         print(f"bb{n}, shot{x}. fidelity=", fidelity)
 
-with open("results.txt", "a+") as f:
-    f.write(f"Experiment: BB{n}, Depolarizing error prob = 10^-{exp}. # of monte carlo samples: {SHOTS}. Mean Fidelity: {np.mean(fidelities)}. Std Dev:{np.std(fidelities)}\n" )
+# write the summary data
+with open("output/BB.txt", "a+") as f:
+    f.write(f"Experiment: BB{n}, {error_type}. prob = 10^-{exp}. # of monte carlo samples: {SHOTS}. Mean Fidelity: {np.mean(fidelities)}. Std Dev:{np.std(fidelities)}\n" )
 
+# write the calculated fidelity for each shot
+with open(f"output/BB{n}_error={error_type}_shots={SHOTS}_output.txt", "w+") as f:
+    for fidelity in fidelities:
+        f.write(str(fidelity) + "\n")
 """
 
 
