@@ -10,31 +10,18 @@ def queryFidelity(k, observed, expected):
     print(observed == expected)
     # step 0: compute the effective expected output state 
     phi_out = dict()
-    for i, j in expected.items():
-        if i & ((2 ** k) - 1) in phi_out:
-            phi_out[i & ((2 ** k) - 1)].append(np.abs(j))
-        else:
-            phi_out[i & ((2 ** k) - 1)] = [np.abs(j)]
+    for k1, v1 in observed.items():
+        for k2, v2 in observed.items():
+            # if they are equal after the trace, then add their amplitdues 
+            if k1 & ((2 ** k) - 1) == k2 & ((2 ** k) - 1):
+                amplitude = k1 & ((2 ** k) - 1)
+                if amplitude in phi_out:
+                    phi_out[k1 & ((2 ** k) - 1)].append(v1 * np.conjugate(v2))
+                else: 
+                    phi_out[k1 & ((2 ** k) - 1)] = [v1 * np.conjugate(v2)]
     for i in phi_out:
         phi_out[i] = np.linalg.norm(phi_out[i], 2)
 
-
-
-    # # step 0: compute the partial trace of the expected output state 
-    # phi_out = dict()
-    # # compare all basis state pairs
-    # for k1, v1 in expected.items():
-    #     for k2, v2 in expected.items():
-    #         # if they are equal after the trace, then add their amplitdues 
-    #         if k1 & ((2 ** k) - 1) == k2 & ((2 ** k) - 1):
-    #             amplitude = k1 & ((2 ** k) - 1)
-    #             if amplitude in phi_out:
-    #                 phi_out[k1 & ((2 ** k) - 1)] += v1 * np.conjugate(v2)
-    #             else: 
-    #                 phi_out[k1 & ((2 ** k) - 1)] = v1 * np.conjugate(v2)
-
-
-   
     # step 1: compute the partial trace of the observed output state 
     rho_out = dict()
     # compare all basis state pairs
@@ -50,13 +37,16 @@ def queryFidelity(k, observed, expected):
     for i in rho_out:
         rho_out[i] = np.linalg.norm(rho_out[i], 2)
 
+    print(phi_out, rho_out)
+    # add up all the ampltidues
     ans = 0
     for k1, v1 in phi_out.items():
         for k2, v2 in rho_out.items():
             if k1 == k2:
-                ans += np.conjugate(v1) * v2 * v1
+                ans += v2 * v1
 
-    return np.real(ans)
+    # take the norm squared
+    return np.abs(ans) ** 2
     
 
 

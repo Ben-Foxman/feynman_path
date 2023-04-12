@@ -12,7 +12,7 @@ n = int(sys.argv[1])
 SHOTS = int(sys.argv[2])
 exp = int(sys.argv[3]) # error prob is 10^{-exp}
 
-error_type = "z_gate_error"
+error_type = "x_gate_error"
 fidelities = []
 # with open(f"circuits/bucket_brigade_circuits/size={n}") as bb:
 #     # obtain the data for the good simulator
@@ -102,7 +102,7 @@ with open(f"circuits/modified_shifan/size={n}") as circ:
                 prob = 10 ** -exp
                 if int(tokens[i]) > n: # n is specific to BB architecture 
                     if ra < prob:
-                        error_circuit.append(f"z {tokens[i]}\n")
+                        error_circuit.append(f"x {tokens[i]}\n")
                     
         
         # write the data of the error simulated circuit

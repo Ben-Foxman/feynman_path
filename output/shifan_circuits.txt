@@ -31,3 +31,17 @@ Experiment: modified_shifan2, z_gate_error. prob = 10^-2. # of monte carlo sampl
 
 Experiment: modified_shifan2, z_gate_error. prob = 10^-3. # of monte carlo samples: 10. Mean Fidelity: 0.25. Std Dev:0.0
 
+Experiment: modified_shifan3, x_gate_error. prob = 10^-3. # of monte carlo samples: 1. Mean Fidelity: 0.12499944761861026. Std Dev:0.0
+
+Experiment: modified_shifan3, x_gate_error. prob = 10^-3. # of monte carlo samples: 1. Mean Fidelity: 0.12499944761861026. Std Dev:0.0
+
+Experiment: modified_shifan3, x_gate_error. prob = 10^-3. # of monte carlo samples: 1. Mean Fidelity: 0.12499944761861026. Std Dev:0.0
+
+Experiment: modified_shifan3, x_gate_error. prob = 10^-3. # of monte carlo samples: 1. Mean Fidelity: 0.12499944761861026. Std Dev:0.0
+
+Experiment: modified_shifan3, x_gate_error. prob = 10^-3. # of monte carlo samples: 1. Mean Fidelity: 0.12499944761861026. Std Dev:0.0
+
+Experiment: modified_shifan3, x_gate_error. prob = 10^-3. # of monte carlo samples: 1. Mean Fidelity: 0.015624861904957687. Std Dev:0.0
+
+Experiment: modified_shifan3, x_gate_error. prob = 10^-3. # of monte carlo samples: 1. Mean Fidelity: 0.015624861904957687. Std Dev:0.0
+
