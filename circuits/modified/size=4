@@ -1,0 +1,378 @@
+130
+#
+h 6
+cx 6 7
+x 7
+h 4
+cx 4 5
+x 5
+h 2
+cx 2 3
+x 3
+h 0
+cx 0 1
+x 1
+swap 0 8 
+swap 1 9 
+swap 8 54 
+swap 9 55 
+swap 2 8 
+swap 3 9 
+cswap 54 52 8 
+cswap 54 53 9 
+cswap 55 56 8 
+cswap 55 57 9 
+swap 52 30 
+swap 53 31 
+swap 56 78 
+swap 57 79 
+swap 4 8 
+swap 5 9 
+cswap 54 52 8 
+cswap 54 53 9 
+cswap 55 56 8 
+cswap 55 57 9 
+swap 52 30 
+swap 53 31 
+swap 56 78 
+swap 57 79 
+cswap 30 28 52 
+cswap 30 29 53 
+cswap 31 32 56 
+cswap 31 33 57 
+swap 28 18 
+swap 29 19 
+swap 32 66 
+swap 33 67 
+cswap 78 76 52 
+cswap 78 77 53 
+cswap 79 80 56 
+cswap 79 81 57 
+swap 76 42 
+swap 77 43 
+swap 80 90 
+swap 81 91 
+swap 6 8 
+swap 7 9 
+cswap 54 52 8 
+cswap 54 53 9 
+cswap 55 56 8 
+cswap 55 57 9 
+swap 52 30 
+swap 53 31 
+swap 56 78 
+swap 57 79 
+cswap 30 28 52 
+cswap 30 29 53 
+cswap 31 32 56 
+cswap 31 33 57 
+swap 28 18 
+swap 29 19 
+swap 32 66 
+swap 33 67 
+cswap 78 76 52 
+cswap 78 77 53 
+cswap 79 80 56 
+cswap 79 81 57 
+swap 76 42 
+swap 77 43 
+swap 80 90 
+swap 81 91 
+cswap 18 16 28 
+cswap 18 17 29 
+cswap 19 20 32 
+cswap 19 21 33 
+swap 16 12 
+swap 17 13 
+swap 20 60 
+swap 21 61 
+cswap 66 64 28 
+cswap 66 65 29 
+cswap 67 68 32 
+cswap 67 69 33 
+swap 64 36 
+swap 65 37 
+swap 68 84 
+swap 69 85 
+cswap 42 40 76 
+cswap 42 41 77 
+cswap 43 44 80 
+cswap 43 45 81 
+swap 40 24 
+swap 41 25 
+swap 44 72 
+swap 45 73 
+cswap 90 88 76 
+cswap 90 89 77 
+cswap 91 92 80 
+cswap 91 93 81 
+swap 88 48 
+swap 89 49 
+swap 92 96 
+swap 93 97 
+cx 12 10
+cx 13 14
+swap 14 15
+cx 10 100
+cx 11 101 
+cx 14 100
+cx 15 101 
+cx 60 58
+cx 61 62
+swap 58 59
+swap 62 63
+cx 58 102
+cx 59 103 
+cx 62 102
+cx 63 103 
+cx 36 34
+cx 37 38
+cx 34 104
+cx 35 105 
+cx 38 104
+cx 39 105 
+cx 84 82
+cx 85 86
+swap 82 83
+swap 86 87
+cx 82 106
+cx 83 107 
+cx 86 106
+cx 87 107 
+cx 24 22
+cx 25 26
+swap 22 23
+swap 26 27
+cx 22 108
+cx 23 109 
+cx 26 108
+cx 27 109 
+cx 72 70
+cx 73 74
+swap 70 71
+swap 74 75
+cx 70 110
+cx 71 111 
+cx 74 110
+cx 75 111 
+cx 48 46
+cx 49 50
+swap 50 51
+cx 46 112
+cx 47 113 
+cx 50 112
+cx 51 113 
+cx 96 94
+cx 97 98
+cx 94 114
+cx 95 115 
+cx 98 114
+cx 99 115 
+cx 100 116
+cx 101 117 
+cx 102 116
+cx 103 117 
+cx 104 118
+cx 105 119 
+cx 106 118
+cx 107 119 
+cx 108 120
+cx 109 121 
+cx 110 120
+cx 111 121 
+cx 112 122
+cx 113 123 
+cx 114 122
+cx 115 123 
+cx 116 124
+cx 117 125 
+cx 118 124
+cx 119 125 
+cx 120 126
+cx 121 127 
+cx 122 126
+cx 123 127 
+cx 124 128
+cx 125 129 
+cx 126 128
+cx 127 129 
+cx 123 127 
+cx 122 126
+cx 121 127 
+cx 120 126
+cx 119 125 
+cx 118 124
+cx 117 125 
+cx 116 124
+cx 115 123 
+cx 114 122
+cx 113 123 
+cx 112 122
+cx 111 121 
+cx 110 120
+cx 109 121 
+cx 108 120
+cx 107 119 
+cx 106 118
+cx 105 119 
+cx 104 118
+cx 103 117 
+cx 102 116
+cx 101 117 
+cx 100 116
+cx 99 115 
+cx 98 114
+cx 95 115 
+cx 94 114
+cx 97 98
+cx 96 94
+cx 51 113 
+cx 50 112
+cx 47 113 
+cx 46 112
+swap 50 51
+cx 49 50
+cx 48 46
+cx 75 111 
+cx 74 110
+cx 71 111 
+cx 70 110
+swap 74 75
+swap 70 71
+cx 73 74
+cx 72 70
+cx 27 109 
+cx 26 108
+cx 23 109 
+cx 22 108
+swap 26 27
+swap 22 23
+cx 25 26
+cx 24 22
+cx 87 107 
+cx 86 106
+cx 83 107 
+cx 82 106
+swap 86 87
+swap 82 83
+cx 85 86
+cx 84 82
+cx 39 105 
+cx 38 104
+cx 35 105 
+cx 34 104
+cx 37 38
+cx 36 34
+cx 63 103 
+cx 62 102
+cx 59 103 
+cx 58 102
+swap 62 63
+swap 58 59
+cx 61 62
+cx 60 58
+cx 15 101 
+cx 14 100
+cx 11 101 
+cx 10 100
+swap 14 15
+cx 13 14
+cx 12 10
+swap 93 97 
+swap 92 96 
+swap 89 49 
+swap 88 48 
+cswap 91 93 81 
+cswap 91 92 80 
+cswap 90 89 77 
+cswap 90 88 76 
+swap 45 73 
+swap 44 72 
+swap 41 25 
+swap 40 24 
+cswap 43 45 81 
+cswap 43 44 80 
+cswap 42 41 77 
+cswap 42 40 76 
+swap 69 85 
+swap 68 84 
+swap 65 37 
+swap 64 36 
+cswap 67 69 33 
+cswap 67 68 32 
+cswap 66 65 29 
+cswap 66 64 28 
+swap 21 61 
+swap 20 60 
+swap 17 13 
+swap 16 12 
+cswap 19 21 33 
+cswap 19 20 32 
+cswap 18 17 29 
+cswap 18 16 28 
+swap 81 91 
+swap 80 90 
+swap 77 43 
+swap 76 42 
+cswap 79 81 57 
+cswap 79 80 56 
+cswap 78 77 53 
+cswap 78 76 52 
+swap 33 67 
+swap 32 66 
+swap 29 19 
+swap 28 18 
+cswap 31 33 57 
+cswap 31 32 56 
+cswap 30 29 53 
+cswap 30 28 52 
+swap 57 79 
+swap 56 78 
+swap 53 31 
+swap 52 30 
+cswap 55 57 9 
+cswap 55 56 8 
+cswap 54 53 9 
+cswap 54 52 8 
+swap 7 9 
+swap 6 8 
+swap 81 91 
+swap 80 90 
+swap 77 43 
+swap 76 42 
+cswap 79 81 57 
+cswap 79 80 56 
+cswap 78 77 53 
+cswap 78 76 52 
+swap 33 67 
+swap 32 66 
+swap 29 19 
+swap 28 18 
+cswap 31 33 57 
+cswap 31 32 56 
+cswap 30 29 53 
+cswap 30 28 52 
+swap 57 79 
+swap 56 78 
+swap 53 31 
+swap 52 30 
+cswap 55 57 9 
+cswap 55 56 8 
+cswap 54 53 9 
+cswap 54 52 8 
+swap 5 9 
+swap 4 8 
+swap 57 79 
+swap 56 78 
+swap 53 31 
+swap 52 30 
+cswap 55 57 9 
+cswap 55 56 8 
+cswap 54 53 9 
+cswap 54 52 8 
+swap 3 9 
+swap 2 8 
+swap 9 55 
+swap 8 54 
+swap 1 9 
+swap 0 8 

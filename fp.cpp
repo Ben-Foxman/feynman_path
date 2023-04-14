@@ -351,6 +351,14 @@ int main(int argc, char **argv)
                 {
                     break;
                 }
+                try
+                {
+                    stoi(wire);
+                }
+                catch (std::exception &e)
+                {
+                    cout << "BAD WIRE " << wire << "NAME " << name << endl;
+                }
                 assert(0 <= stoi(wire) && stoi(wire) < n);
                 wires.push_back(stoi(wire));
             }
@@ -370,7 +378,7 @@ int main(int argc, char **argv)
     ofstream data;
     if (argc > 3 && string(argv[2]) == "-d")
     {
-        data.open("data/" + string(argv[3]), fstream::trunc);
+        data.open("data/" + string(argv[3]), fstream::out);
     }
 
     for (const auto &[ket, amplitude] : state)
