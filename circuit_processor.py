@@ -18,9 +18,10 @@ name = sys.argv[6]
 
 ## BB EXPERIMENTS ## 
 if name == "bb":
+    start = time.time()
     with open(f"circuits/bucket_brigade_circuits/size={n}") as bb:
         # obtain the data for the good simulator
-        os.system(f"./fp.out bucket_brigade_circuits/size={n} -d bb{n}")
+        # os.system(f"./fp.out bucket_brigade_circuits/size={n} -d bb{n}")
         correct_circuit = bb.readlines()
         # get the data of the correct circuit
         expected = dict()
@@ -63,23 +64,28 @@ if name == "bb":
 
 
             # compute the query fidelity for this shot 
-            fidelity = qf(n, observed, expected)
+            fidelity = qf(observed, expected)
             fidelities.append(fidelity)
             print(f"bb{n}, shot{x}. fidelity=", fidelity)
+    
+    end = time.time()
 
     # write the summary data
     with open("output/results.txt", "a") as f:
-        f.write(f"bb{n}, {error_type}, {10 ** -exp}, {SHOTS}, {np.mean(fidelities)}, {np.std(fidelities)}\n" )
+        f.write(f"bb{n}, {error_type}, {10 ** -exp}, {SHOTS}, {np.mean(fidelities)}, {np.std(fidelities)}, {end-start}\n" )
 
     # write the calculated fidelity for each shot
-    with open(f"output/bb{n}_error={error_type}:10^-{exp}_shots={SHOTS}_output.txt", "w+") as f:
+    with open(f"output/bb{n}_error={error_type}:10^-{exp}.txt", "w+") as f:
         for fidelity in fidelities:
             f.write(str(fidelity) + "\n")
+    
 
+## MODIFIED QRAM EXPERIMENTS
 elif name == "modified":
+    start = time.time()
     with open(f"circuits/modified/size={n}") as circ:
         # obtain the data for the good simulator
-        os.system(f"./fp.out modified/size={n} -d modified{n}")
+        # os.system(f"./fp.out modified/size={n} -d modified{n}")
         correct_circuit = circ.readlines()
         # get the data of the correct circuit
         expected = dict()
@@ -123,16 +129,17 @@ elif name == "modified":
 
 
             # compute the query fidelity for this shot 
-            fidelity = qf(2 * n, observed, expected)
+            fidelity = qf(observed, expected)
             fidelities.append(fidelity)
             print(f"modified{n}, shot{x}. fidelity=", fidelity)
+    end = time.time()
 
     # write the summary data
     with open("output/results.txt", "a") as f:
-        f.write(f"modified{n}, {error_type}, {10 ** -exp}, {SHOTS}, {np.mean(fidelities)}, {np.std(fidelities)}\n" )
+        f.write(f"modified{n}, {error_type}, {10 ** -exp}, {SHOTS}, {np.mean(fidelities)}, {np.std(fidelities)}, {end-start}\n" )
 
     # write the calculated fidelity for each shot
-    with open(f"output/shifan_circuit_data{n}_error={error_type}:10^-{exp}_shots={SHOTS}_output.txt", "w+") as f:
+    with open(f"output/shifan_circuit_data{n}_error={error_type}:10^-{exp}.txt", "w+") as f:
         for fidelity in fidelities:
             f.write(str(fidelity) + "\n")
 

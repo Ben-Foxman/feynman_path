@@ -4,10 +4,10 @@
 #include <iostream>
 #include <fstream>
 #include <vector>
-#include <format>
 #include <assert.h>
 #include <string_view>
 #include <bitset>
+#include <algorithm>
 #include "BigInt.hpp"
 using namespace std;
 using namespace std::complex_literals;
@@ -318,7 +318,7 @@ int main(int argc, char **argv)
     string line;
     bool first = true, second = false;
 
-    auto start = chrono::steady_clock::now();
+    // auto start = chrono::steady_clock::now();
 
     while (std::getline(infile, line))
     {
@@ -365,9 +365,9 @@ int main(int argc, char **argv)
             process_gate(name, wires);
         }
     }
-    auto end = chrono::steady_clock::now();
+    // auto end = chrono::steady_clock::now();
 
-    auto exectime = chrono::duration_cast<std::chrono::nanoseconds>(end - start).count();
+    // auto exectime = chrono::duration_cast<std::chrono::nanoseconds>(end - start).count();
 
     if (argc > 2 && string(argv[2]) == "-p")
     {
@@ -398,11 +398,11 @@ int main(int argc, char **argv)
         cout << "Gate count: " << gate_num << endl;
         cout << "Feynman Path Edges: " << computation_num << endl
              << endl;
-        cout << "Execution Time: " << exectime / 1000000000.0 << " seconds" << endl;
+        // cout << "Execution Time: " << exectime / 1000000000.0 << " seconds" << endl;
     }
 
     // write filename, exectime to outfile
-    ofstream runtime("bboutput.csv", fstream::app);
+    // ofstream runtime("bboutput.csv", fstream::app);
 
-    runtime << "fp, " << argv[1] << ", " << exectime / 1000000000.0 << " seconds" << endl;
+    // runtime << "fp, " << argv[1] << ", " << exectime / 1000000000.0 << " seconds" << endl;
 }
