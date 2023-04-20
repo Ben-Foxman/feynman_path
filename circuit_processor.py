@@ -85,7 +85,7 @@ elif name == "modified":
     start = time.time()
     with open(f"circuits/modified/size={n}") as circ:
         # obtain the data for the good simulator
-        os.system(f"./fp.out modified/size={n} -d modified{n}")
+        #os.system(f"./fp.out modified/size={n} -d modified{n}")
         correct_circuit = circ.readlines()
         # get the data of the correct circuit
         expected = dict()
