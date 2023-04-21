@@ -5,4 +5,5 @@ output/
 *results*
 *data.txt
 data/
+.vscode/
 circuits/modified_bb_qram/

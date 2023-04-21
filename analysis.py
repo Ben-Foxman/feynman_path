@@ -1,5 +1,4 @@
 import numpy as np
-from matplotlib import pyplot as plt 
 import pandas as pd 
 
 aggregate_data = pd.read_csv("output/results.txt").rename(columns=lambda x: x.replace(" ", ""))
