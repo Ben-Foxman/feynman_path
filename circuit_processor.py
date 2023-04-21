@@ -1,6 +1,5 @@
 import random
 import os
-from query_fidelity import queryFidelity as qf
 import numpy as np
 import sys
 import string
@@ -15,6 +14,15 @@ error_type = sys.argv[4]
 error_gate = sys.argv[5]
 fidelities = []
 name = sys.argv[6]
+
+# goal: take the inner product between the observed and expected states.
+def queryFidelity(observed, expected):
+    ans = 0 
+    for k1, v1 in observed.items():
+        if k1 in expected:
+            ans += v1 * np.conjugate(expected[k1])
+    return np.abs(ans) ** 2
+
 
 ## BB EXPERIMENTS ## 
 if name == "bb":
