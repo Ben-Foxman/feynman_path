@@ -1,4 +1,4 @@
-# Feynman Path Simulation in C++
+# Feynman Path Simulation for QRAM
 This is an implementation of the Feynman Path Method for Quantum Circuit Simulation, supporting all Clifford gates and some non-Clifford gates. We also implement the BB QRAM (from ) and a new Modified Dual-Rail QRAM, in formats which can be simulated.
 
 To run the simulator, build ```fp.cpp``` with std>=c++17, and then invoke
