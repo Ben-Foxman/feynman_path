@@ -1,4 +1,8 @@
 *.out
 *output.txt
 *.sh
-output/*
+output/
+*results*
+*data.txt
+data/
+circuits/modified_bb_qram/

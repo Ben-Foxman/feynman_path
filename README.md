@@ -3,7 +3,8 @@ This is an implementation of the Feynman Path Method for Quantum Circuit Simulat
 ```
 ./OUTFILE <circuit INFILE>
 ```
-to run. The optional flag ```-p``` can be passed in after the infile name to print the full state of the circuit after simulation. 
+to run. The optional flag ```-p``` can be passed in after the infile name to print the full state of the circuit after simulation, and the optional flag 
+```-d filename``` can be passed in after the infile name to write the state of the circuit to the file ```filename``` 
 
 ### Valid INFILE Format ###
 
