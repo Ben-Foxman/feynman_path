@@ -8,3 +8,4 @@ data/
 .vscode/
 circuits/modified_bb_qram/
 *.hpp
+analysis.py
