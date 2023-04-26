@@ -47,7 +47,7 @@ if name == "bb":
                 error_circuit.append(gate)
                 for i in range(1, len(tokens)):
                     ra = random.random()
-                    prob = 10 ** -exp
+                    prob = 5 * 10 ** -exp # .05, .005, etc.
                     if int(tokens[i]) > n: # n is specific to BB architecture 
                         if ra < prob:
                             error_circuit.append(f"{error_gate} {tokens[i]}\n")
